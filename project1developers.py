@@ -109,7 +109,7 @@ for dev_a, dev_b in combinations(DEVS, 2):
 cols = ["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]
 df = pd.DataFrame(SIMILARITY, columns=cols)
-df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
+#df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
 
 
 # Set similarity threshold, check c1-c3 against the threshold
