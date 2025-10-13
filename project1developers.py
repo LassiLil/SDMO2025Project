@@ -76,16 +76,25 @@ def process(dev):
     # Determine email prefix
     email: str = dev[1]
     prefix = email.split("@")[0]
+    domain = email.split("@")[1]
 
-    return name, first, last, i_first, i_last, email, prefix
+    return name, first, last, i_first, i_last, email, prefix, domain
 
 
 # Compute similarity between all possible pairs
 SIMILARITY = []
 for dev_a, dev_b in combinations(DEVS, 2):
     # Pre-process both developers
-    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a = process(dev_a)
-    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b = process(dev_b)
+    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a, domain_a = process(dev_a)
+    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, domain_b = process(dev_b)
+
+    #list of prefixes and email domains to filter:
+    #filteredPrefixes = []
+    filteredDomains = ["users.noreply.github.com"]
+
+    #filter out domains and prefixes
+    if ( (domain_a in filteredDomains) or (domain_b in filteredDomains) ):
+        continue
 
     # Conditions of Bird heuristic
     c1 = sim(name_a, name_b)
@@ -94,14 +103,21 @@ for dev_a, dev_b in combinations(DEVS, 2):
     c32 = sim(last_a, last_b)
     c4 = c5 = c6 = c7 = False
     # Since lastname and initials can be empty, perform appropriate checks
-    if i_first_a != "" and last_a != "":
-        c4 = i_first_a in prefix_b and last_a in prefix_b
-    if i_last_a != "":
-        c5 = i_last_a in prefix_b and first_a in prefix_b
-    if i_first_b != "" and last_b != "":
-        c6 = i_first_b in prefix_a and last_b in prefix_a
-    if i_last_b != "":
-        c7 = i_last_b in prefix_a and first_b in prefix_a
+    '''
+    alla olevat ehdot ovat selvästi liian löyhiä. Jos käyttäjän 1 koko sukunimi on yksi kirjain, 
+    tarvitsee vain käyttäjän 2 spostin etuliitteen sisältää käyttäjän 1 etunimen eka kirjain ja sukunimen eka kirjain.
+    Kokeilen jättää nämä väliin niiltä, joilla on vain yhden merkin mittainen etu- tai sukunimi. 
+    '''
+    if(len(last_a) > 1 and len(first_a) > 1):
+        if i_first_a != "" and last_a != "":
+            c4 = i_first_a in prefix_b and last_a in prefix_b
+        if i_last_a != "":
+            c5 = i_last_a in prefix_b and first_a in prefix_b
+    if(len(last_b) > 1 and len(first_b) > 1):
+        if i_first_b != "" and last_b != "":
+            c6 = i_first_b in prefix_a and last_b in prefix_a
+        if i_last_b != "":
+            c7 = i_last_b in prefix_a and first_b in prefix_a
 
     # Save similarity data for each conditions. Original names are saved
     SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
@@ -116,13 +132,14 @@ df = pd.DataFrame(SIMILARITY, columns=cols)
 
 
 # Set similarity threshold, check c1-c3 against the threshold
-t=0.7
+t=0.9
 print("Threshold:", t)
 df["c1_check"] = df["c1"] >= t
 df["c2_check"] = df["c2"] >= t
 df["c3_check"] = (df["c3.1"] >= t) & (df["c3.2"] >= t)
 # Keep only rows where at least one condition is True
 df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].any(axis=1)]
+
 
 # Omit "check" columns, save to csv
 df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
