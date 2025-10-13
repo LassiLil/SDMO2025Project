@@ -12,25 +12,28 @@ import os
 # If you provide a URL, it clones the repo, fetches the commits and then deletes it,
 # so for a big project better clone the repo locally and provide filesystem path
 
-# from pydriller import Repository
-# DEVS = set()
-# for commit in Repository("https://github.com/dotnet-architecture/eShopOnContainers").traverse_commits():
-#     DEVS.add((commit.author.name, commit.author.email))
-#     DEVS.add((commit.committer.name, commit.committer.email))
-#
-# DEVS = sorted(DEVS)
-#
-# with open(os.path.join("project1devs", "devs.csv"), 'w', newline='') as csvfile:
-#     writer = csv.writer(csvfile, delimiter=',', quotechar='"')
-#     writer.writerow(["name", "email"])
-#     writer.writerows(DEVS)
-#
+from pydriller import Repository
+
+print("nyt lähtee")
+
+DEVS = set()
+for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits():
+     DEVS.add((commit.author.name, commit.author.email))
+     DEVS.add((commit.committer.name, commit.committer.email))
+
+DEVS = sorted(DEVS)
+
+with open(os.path.join("project1devs", "devs.csv"), 'w', encoding="utf_8", newline='') as csvfile:
+     writer = csv.writer(csvfile, delimiter=',', quotechar='"')
+     writer.writerow(["name", "email"])
+     writer.writerows(DEVS)
+
 
 # This block of code reads an existing csv of developers
 
 DEVS = []
 # Read csv file with name,dev columns
-with open(os.path.join("project1devs", "devs.csv"), 'r', newline='') as csvfile:
+with open(os.path.join("project1devs", "devs.csv"), 'r', encoding="utf_8", newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
         DEVS.append(row)
@@ -125,3 +128,5 @@ df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].any(axi
 df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]]
 df.to_csv(os.path.join("project1devs", f"devs_similarity_t={t}.csv"), index=False, header=True)
+
+print("valmis")
