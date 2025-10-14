@@ -1,286 +1,76 @@
 name_1,email_1,name_2,email_2,c1,c2,c3.1,c3.2,c4,c5,c6,c7
-,shyam.thiagarajan@gmail.com,=,201551009@iiitvadodara.ac.in,1.0,0.0,1.0,1.0,False,False,False,False
-,shyam.thiagarajan@gmail.com,Ayush Raj,rajayush213@gmail.com,0.0,0.2857142857142857,0.0,0.0,False,False,True,False
-97arushisharma,97arushisharma@gmail.com,Akshay Sharma,akshay.sharma09695@gmail.com,0.6666666666666667,0.5625,0.4,0.0,False,False,True,False
-97arushisharma,97arushisharma@gmail.com,Aruj Sharma,aruj123sharma@gmail.com,0.72,0.6666666666666667,0.33333333333333337,0.0,False,False,True,False
-97arushisharma,97arushisharma@gmail.com,Honey Sharma,softwaretester2016pro@gmail.com,0.5384615384615384,0.22857142857142854,0.10526315789473684,0.0,False,False,True,False
-97arushisharma,97arushisharma@gmail.com,Shivam sharma,shivams334@gmail.com,0.6666666666666667,0.41666666666666663,0.5,0.0,False,False,True,False
 A Safari,alisafariem@gmail.com,Safari,alisafariem@gmail.com,0.8571428571428572,1.0,0.2857142857142857,0.0,False,False,False,False
-AHTESHAM ZAIDI,zsyedahtesham@yahoo.com,Syed Haseeb Shah,yesiamhasi@gmail.com,0.33333333333333337,0.4347826086956522,0.16666666666666663,0.125,False,False,False,True
-ANIRUDDHA ADAK,aniruddhaadak80@gmail.com,Aniruddha Bhattacharjee,aniruddha97bhatt@gmail.com,0.6486486486486487,0.6451612903225806,1.0,0.23529411764705888,False,True,False,False
 Aakash Giri,giriaakash00@gmail.com,Akash G Krishnan,krishnanag1996@gmail.com,0.6666666666666667,0.3076923076923077,0.9090909090909091,0.4285714285714286,False,False,False,True
-Aakash Giri,giriaakash00@gmail.com,Akash Kumar,email.akashkumar@gmail.com,0.6363636363636364,0.4285714285714286,0.9090909090909091,0.2222222222222222,False,False,False,True
-Aakash Giri,giriaakash00@gmail.com,Sagar Giri,girisagar46@gmail.com,0.6666666666666667,0.5217391304347826,0.36363636363636365,1.0,True,False,True,False
-Abdujabbar Mirkhalikov,abdujabbar.mirkhalikov@gmail.com,Hanif Ali,alihanif016@gmail.com,0.32258064516129037,0.303030303030303,0.1333333333333333,0.4285714285714286,False,False,True,False
-Abhinav Anand,manasgmishra@gmail.com,Indrajeet Mishra,mindra673@gmail.com,0.3448275862068966,0.38095238095238093,0.375,0.18181818181818177,False,False,True,False
-Achal Jain,achaljain232@gmail.com,Hetarth Jain,hetarth.jain@gmail.com,0.6363636363636364,0.5,0.33333333333333337,1.0,True,False,True,False
-Achal Jain,achaljain232@gmail.com,SiddhantJain15,siddhant.jain150397@gmail.com,0.5,0.4516129032258065,0.21052631578947367,0.0,True,False,False,False
 Achal Jain,achaljain232@gmail.com,arpanjain97,arpanjain97@gmail.com,0.5714285714285714,0.5217391304347826,0.25,0.0,True,False,False,False
 Adebisi Ahmed,adebisi.ahmed10@gmail.com,Arijit De,arijitde2050@gmail.com,0.4545454545454546,0.37037037037037035,0.46153846153846156,0.2857142857142857,False,False,True,False
-Adebisi Ahmed,adebisi.ahmed10@gmail.com,Ishab,ishabahmed00@gmail.com,0.33333333333333337,0.5925925925925926,0.33333333333333337,0.0,True,False,False,False
 Adithya Awati,1ds21ai001@dsce.edu.in,Adithya Awati,aditya.n.awati@gmail.com,1.0,0.25,1.0,1.0,True,False,False,False
-Aditya Haridas Menon,adityaharidas.m16@iiits.in,Aditya Menon,adityamenon1996@gmail.com,0.75,0.5625,1.0,0.5555555555555556,False,False,False,True
-Akash,akash0babu0@gmail.com,Akash Kumar,email.akashkumar@gmail.com,0.625,0.4444444444444444,1.0,0.0,False,False,False,True
-Akash G Krishnan,krishnanag1996@gmail.com,Gayathri Krishnan,gayathrikrishnan.gayu@gmail.com,0.7272727272727273,0.5142857142857142,0.46153846153846156,0.8888888888888888,False,False,True,False
-Akash Kumar,email.akashkumar@gmail.com,Akshay Kumar,gakkikumar@gmail.com,0.8695652173913043,0.5384615384615384,0.7272727272727273,1.0,True,False,True,False
-Akash Kumar,email.akashkumar@gmail.com,Anurag Kumar,anuragkumarak95@gmail.com,0.6956521739130435,0.4516129032258065,0.36363636363636365,1.0,True,False,True,False
-Akash Kumar,email.akashkumar@gmail.com,Harshit Kumar,kumar_harshit@outlook.com,0.75,0.3448275862068966,0.5,1.0,True,False,True,False
-Akash Kumar,email.akashkumar@gmail.com,Rishabh Kumar,rishabh0098@gmail.com,0.6666666666666667,0.2962962962962963,0.33333333333333337,1.0,False,False,True,False
-Akash Kumar,email.akashkumar@gmail.com,Santosh Mohan Rajkumar,rajkumar.nits@gmail.com,0.5454545454545454,0.4137931034482759,0.5,0.5263157894736843,True,False,False,False
-Akash Kumar,email.akashkumar@gmail.com,Srikumar Sastry,srikumarsastry1997@gmail.com,0.46153846153846156,0.3529411764705882,0.3076923076923077,0.36363636363636365,True,False,False,False
-Akash Kumar,email.akashkumar@gmail.com,Utsav Akash Naskar,utsavakash123@gmail.com,0.6206896551724138,0.4137931034482759,0.19999999999999996,0.3529411764705882,False,True,False,False
-Akash Kumar,email.akashkumar@gmail.com,kunal kumar barman,kumar96kunal@gmail.com,0.5517241379310345,0.3571428571428571,0.4,0.5882352941176471,True,False,False,False
-Akshay Kumar,gakkikumar@gmail.com,Akshay Sharma,akshay.sharma09695@gmail.com,0.72,0.2857142857142857,1.0,0.36363636363636365,False,True,False,False
-Akshay Kumar,gakkikumar@gmail.com,Anurag Kumar,anuragkumarak95@gmail.com,0.6666666666666667,0.48,0.33333333333333337,1.0,True,False,True,False
-Akshay Kumar,gakkikumar@gmail.com,Harshit Kumar,kumar_harshit@outlook.com,0.72,0.4347826086956522,0.46153846153846156,1.0,True,False,False,False
-Akshay Kumar,gakkikumar@gmail.com,Rishabh Kumar,rishabh0098@gmail.com,0.72,0.19047619047619047,0.46153846153846156,1.0,False,False,True,False
-Akshay Kumar,gakkikumar@gmail.com,Santosh Mohan Rajkumar,rajkumar.nits@gmail.com,0.5882352941176471,0.5217391304347826,0.46153846153846156,0.5263157894736843,True,False,False,False
-Akshay Kumar,gakkikumar@gmail.com,Srikumar Sastry,srikumarsastry1997@gmail.com,0.4444444444444444,0.4285714285714286,0.2857142857142857,0.36363636363636365,True,False,False,False
-Akshay Kumar,gakkikumar@gmail.com,kunal kumar barman,kumar96kunal@gmail.com,0.5333333333333333,0.4545454545454546,0.36363636363636365,0.5882352941176471,True,False,False,False
+Akash Kumar,email.akashkumar@gmail.com,Anurag Kumar,anuragkumarak95@gmail.com,0.6956521739130435,0.4516129032258065,0.36363636363636365,1.0,True,False,False,False
+Akshay Kumar,gakkikumar@gmail.com,Anurag Kumar,anuragkumarak95@gmail.com,0.6666666666666667,0.48,0.33333333333333337,1.0,True,False,False,False
 Akshay Sharma,akshay.sharma09695@gmail.com,Aruj Sharma,aruj123sharma@gmail.com,0.6666666666666667,0.4516129032258065,0.19999999999999996,1.0,True,False,True,False
-Akshay Sharma,akshay.sharma09695@gmail.com,Honey Sharma,softwaretester2016pro@gmail.com,0.72,0.3076923076923077,0.36363636363636365,1.0,False,False,True,False
-Akshay Sharma,akshay.sharma09695@gmail.com,Jitendra_Sharma,jitendra.sharma_cs16@gla.ac.in,0.5185185185185186,0.4736842105263158,0.4,0.0,True,False,False,False
-Akshay Sharma,akshay.sharma09695@gmail.com,Shivam sharma,shivams334@gmail.com,0.7692307692307692,0.2857142857142857,0.5,1.0,False,False,True,False
-Akshay Sharma,akshay.sharma09695@gmail.com,tacitvenom,vasu.sharma314@gmail.com,0.17391304347826086,0.5625,0.125,0.0,True,False,False,False
 Alex Brown,opti.jawsome@gmail.com,AlexDvorak,opti.jawsome@gmail.com,0.5,1.0,0.5714285714285714,0.0,False,False,False,False
-Alex Brown,opti.jawsome@gmail.com,Gilberto Alexandre dos Santos,gilberto.alexsantos@gmail.com,0.3589743589743589,0.32258064516129037,0.33333333333333337,0.24,False,True,False,False
-Alex Brown,opti.jawsome@gmail.com,Om Alve,omalve8174@gmail.com,0.3529411764705882,0.2727272727272727,0.0,0.0,False,False,False,True
-Alex Brown,opti.jawsome@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.27586206896551724,0.19047619047619047,0.0,0.2857142857142857,False,False,False,True
-Alex Joslin,aljoslin13@yahoo.com,Sanders Lin,sandershonglin@gmail.com,0.5454545454545454,0.41666666666666663,0.36363636363636365,0.6666666666666667,False,False,True,False
-AlexDvorak,opti.jawsome@gmail.com,Om Alve,omalve8174@gmail.com,0.3529411764705882,0.2727272727272727,0.16666666666666663,0.0,False,False,False,True
-AlexDvorak,opti.jawsome@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.2068965517241379,0.19047619047619047,0.16666666666666663,0.0,False,False,False,True
-Aliabbas Merchant,merchantaliabbas@gmail.com,Hanif Ali,alihanif016@gmail.com,0.3076923076923077,0.2962962962962963,0.3076923076923077,0.18181818181818177,False,False,True,False
-Alok Shukla,alok.linuxmail@gmail.com,Khushi Shukla,tusharika.shukla05@gmail.com,0.6666666666666667,0.3125,0.19999999999999996,1.0,True,False,False,False
-Alvin Nguyen,alvin@D-10-16-24-223.dhcp4.washington.edu,Alvin Philips,alvinphilips257@gmail.com,0.48,0.5,1.0,0.0,False,True,False,False
-Alvin Nguyen,alvin@D-10-16-24-223.dhcp4.washington.edu,Calvin McCarter,calvin199@gmail.com,0.5185185185185186,0.7142857142857143,0.9090909090909091,0.1428571428571429,False,True,False,False
-Alvin Nguyen,alvin@D-10-16-24-223.dhcp4.washington.edu,alvin562,alvindantic562@gmail.com,0.5,0.5263157894736843,0.7692307692307692,0.0,False,True,False,False
-Amir Lavasani,amirm.lavasani@gmail.com,Amir Naghibi,amirmahdi76@gmail.com,0.56,0.56,1.0,0.2666666666666667,False,False,False,True
 AmirSoroush,amirsoroush.dev@gmail.com,Arijit De,arijitde2050@gmail.com,0.19999999999999996,0.2962962962962963,0.23529411764705888,0.0,False,False,True,False
-Anamaria Miranda,miranda_anam@hotmail.com,Jr Miranda,sjrmiranda@gmail.com,0.6923076923076923,0.6363636363636364,0.19999999999999996,1.0,True,False,False,False
-Anderson Torres,torres.anderson.85@protonmail.com,Arijit De,arijitde2050@gmail.com,0.33333333333333337,0.2666666666666667,0.2857142857142857,0.25,False,False,True,False
-Andrew Grangaard,andrew.grangaard@gmail.com,Andrew Grangaard,granny-github@ofb.net,1.0,0.3448275862068966,1.0,1.0,False,False,True,True
-Andrew Grangaard,andrew.grangaard@gmail.com,André Almeida,fda.andre@gmail.com,0.5517241379310345,0.4,0.9090909090909091,0.25,False,False,False,True
-Andy Lau,andy1970635726@gmail.com,Christian Clauss,cclauss@me.com,0.5,0.09523809523809523,0.3076923076923077,0.6666666666666667,True,False,False,False
-Andy Lau,andy1970635726@gmail.com,cclauss,cclauss@bluewin.ch,0.4,0.09523809523809523,0.18181818181818177,0.0,True,False,False,False
-Andy Lau,andy1970635726@gmail.com,cclauss,cclauss@me.com,0.4,0.09523809523809523,0.18181818181818177,0.0,True,False,False,False
-Anirudh Ajith,anirudh.ajith@gmail.com,Shivanirudh,shivanirudh18146@cse.ssn.edu.in,0.5833333333333333,0.48275862068965514,0.7777777777777778,0.0,False,True,False,False
-Ankit Agarwal,ankit.agarwal02@snapdeal.com,Ankit Dhankhar,ankit97dhankhar@gmail.com,0.6666666666666667,0.5333333333333333,1.0,0.4,False,True,False,False
+Andrew Grangaard,andrew.grangaard@gmail.com,Andrew Grangaard,granny-github@ofb.net,1.0,0.3448275862068966,1.0,1.0,False,False,True,False
 Anshul,malikanshul29@gmail.com,Anshul Malik,malikanshul29@gmail.com,0.6666666666666667,1.0,1.0,0.0,False,False,True,True
-Anshul,malikanshul29@gmail.com,Hanif Ali,alihanif016@gmail.com,0.4,0.41666666666666663,0.36363636363636365,0.0,False,False,True,False
-Anshul Malik,malikanshul29@gmail.com,Hanif Ali,alihanif016@gmail.com,0.5714285714285714,0.41666666666666663,0.36363636363636365,0.75,False,False,True,False
-Anshul Malik,malikanshul29@gmail.com,malikshubham827,malikshubham827@gmail.com,0.37037037037037035,0.6428571428571428,0.38095238095238093,0.0,True,False,False,False
-Ant Fitch,amanda.fitch@outlook.com,Tauseef Hilal Tantary,tantary.tauseef.atwork@gmail.com,0.2666666666666667,0.3529411764705882,0.19999999999999996,0.2222222222222222,False,True,False,False
 Anup Kumar Panwar,1anuppanwar@gmail.com,Anup Kumar Panwar,mylnext@gmail.com,1.0,0.11111111111111116,1.0,1.0,False,False,False,False
 Anup Kumar Panwar,1anuppanwar@gmail.com,AnupKumarPanwar,1anuppanwar@gmail.com,0.9375,1.0,0.42105263157894735,0.0,False,False,False,False
 Anup Kumar Panwar,mylnext@gmail.com,AnupKumarPanwar,1anuppanwar@gmail.com,0.9375,0.11111111111111116,0.42105263157894735,0.0,False,False,False,False
-Anurag Kumar,anuragkumarak95@gmail.com,Harshit Kumar,kumar_harshit@outlook.com,0.64,0.4285714285714286,0.3076923076923077,1.0,True,False,False,False
-Anurag Kumar,anuragkumarak95@gmail.com,Rishabh Kumar,rishabh0098@gmail.com,0.64,0.23076923076923073,0.3076923076923077,1.0,False,False,True,False
-Anurag Kumar,anuragkumarak95@gmail.com,Santosh Mohan Rajkumar,rajkumar.nits@gmail.com,0.5294117647058824,0.5,0.3076923076923077,0.5263157894736843,True,False,False,False
-Anurag Kumar,anuragkumarak95@gmail.com,Srikumar Sastry,srikumarsastry1997@gmail.com,0.4444444444444444,0.48484848484848486,0.2857142857142857,0.36363636363636365,True,False,False,False
-Anurag Kumar,anuragkumarak95@gmail.com,kunal kumar barman,kumar96kunal@gmail.com,0.5333333333333333,0.4444444444444444,0.36363636363636365,0.5882352941176471,True,False,False,False
-Anzo Teh,anzoteh@hotmail.com,Metehan,metehaansever@gmail.com,0.4,0.30000000000000004,0.36363636363636365,0.0,True,False,False,False
 Aqib Javid Bhat,aqib.m31.dev@gmail.com,Arijit De,arijitde2050@gmail.com,0.41666666666666663,0.33333333333333337,0.4,0.16666666666666663,False,False,True,False
-Archana Prabhu,prabhuarc27@gmail.com,Corey Hu,corey.huym@gmail.com,0.36363636363636365,0.2857142857142857,0.16666666666666663,0.5,False,False,True,False
 Arijit De,arijitde2050@gmail.com,Arshdeep Singh Sachdeva,arshdeep.mailme@gmail.com,0.375,0.2962962962962963,0.2857142857142857,0.25,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Berat Osman Demiralay,bdemiralay7@gmail.com,0.33333333333333337,0.17391304347826086,0.36363636363636365,0.23529411764705888,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Caeden,caedenperelliharris@gmail.com,0.4,0.25806451612903225,0.16666666666666663,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Caeden Perelli-Harris,caedenperelliharris@gmail.com,0.27586206896551724,0.25806451612903225,0.16666666666666663,0.1333333333333333,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Christian Bender,christianbender89@web.de,0.48,0.3448275862068966,0.4,0.5,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Dave Kerr,davekerrcode@gmail.com,0.33333333333333337,0.33333333333333337,0.19999999999999996,0.33333333333333337,True,False,False,False
-Arijit De,arijitde2050@gmail.com,DeepakNautiyal987,deepaknautiyal07@outlook.com,0.15384615384615385,0.2142857142857143,0.17391304347826086,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Fakher Mokadem,fmokadem@umich.edu,0.4347826086956522,0.30000000000000004,0.33333333333333337,0.4444444444444444,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Hithru De Alwis,Hithrudealwis@gmail.com,0.41666666666666663,0.31999999999999995,0.33333333333333337,0.4,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Jai Kumar Dewani,jai.dewani.99@gmail.com,0.4,0.31999999999999995,0.4444444444444444,0.2857142857142857,True,False,False,False
-Arijit De,arijitde2050@gmail.com,James Mc Dermott,james.mcdermott89@gmail.com,0.31999999999999995,0.2068965517241379,0.18181818181818177,0.33333333333333337,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Jaydeep Das,jaydeepjd.1125@gmail.com,0.30000000000000004,0.3846153846153846,0.15384615384615385,0.4,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Jaydeep Das,jaydeepjd.8914@gmail.com,0.30000000000000004,0.23076923076923073,0.15384615384615385,0.4,True,False,False,False
-Arijit De,arijitde2050@gmail.com,João Marcos,joao.medeiros@ccc.ufcg.edu.br,0.19999999999999996,0.24,0.19999999999999996,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Juan Antonio,juant.aldea@gmail.com,0.19047619047619047,0.34782608695652173,0.19999999999999996,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Milad Khoshdel,miladkhoshdel@gmail.com,0.34782608695652173,0.24,0.18181818181818177,0.4,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Navpreet Singh Devpuri,navpreetdevpuri@gmail.com,0.3870967741935484,0.37037037037037035,0.4285714285714286,0.2666666666666667,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Niranjan Hegde,hegdeniranjan144@gmail.com,0.4347826086956522,0.1428571428571429,0.2857142857142857,0.5714285714285714,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Purvesh Makode,makodepurvesh@gmail.com,0.34782608695652173,0.24,0.15384615384615385,0.5,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Ridiculous Ate,programmingdedication@gmail.com,0.4347826086956522,0.24242424242424243,0.375,0.4,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Ron U,sharpblade4@gmail.com,0.2857142857142857,0.34782608695652173,0.2222222222222222,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Sanders Lin,sandershonglin@gmail.com,0.30000000000000004,0.23076923076923073,0.3076923076923077,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Siddhant Totade,siddhanttotade.1994@gmail.com,0.41666666666666663,0.25806451612903225,0.2857142857142857,0.5,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Syed Waleed Hyder,syedwaleedhyder@gmail.com,0.3076923076923077,0.2222222222222222,0.0,0.2857142857142857,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Sylvain,sylvain.desodt+github@gmail.com,0.25,0.24242424242424243,0.3076923076923077,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Tony De La Nuez,tony.delanuez@gmail.com,0.33333333333333337,0.24,0.19999999999999996,0.33333333333333337,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Vijayalaxmi Wakode,vijayalaxmiwakode@gmail.com,0.4444444444444444,0.3448275862068966,0.3529411764705882,0.5,True,False,False,False
-Arijit De,arijitde2050@gmail.com,Vinicius Cordeiro,marcos.cordeiroal@gmail.com,0.3846153846153846,0.27586206896551724,0.2857142857142857,0.4,True,False,False,False
 Arijit De,arijitde2050@gmail.com,agdenadel,agdenadel@gmail.com,0.33333333333333337,0.2857142857142857,0.1333333333333333,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,arijit pande,pande.arijit@gmail.com,0.8571428571428572,0.5,1.0,0.5714285714285714,True,True,False,False
-Arijit De,arijitde2050@gmail.com,christianbender,christianbender89@web.de,0.41666666666666663,0.3448275862068966,0.2857142857142857,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,nautiyaldeepak,deepaknautiyal07@outlook.com,0.34782608695652173,0.2142857142857143,0.19999999999999996,0.0,True,False,False,False
-Arijit De,arijitde2050@gmail.com,theycallmemac,james.mcdermott89@gmail.com,0.18181818181818177,0.2068965517241379,0.10526315789473684,0.0,True,False,False,False
-Aruj Sharma,aruj123sharma@gmail.com,Honey Sharma,softwaretester2016pro@gmail.com,0.6086956521739131,0.23529411764705888,0.0,1.0,False,False,True,False
-Aruj Sharma,aruj123sharma@gmail.com,Jitendra_Sharma,jitendra.sharma_cs16@gla.ac.in,0.56,0.4242424242424242,0.2222222222222222,0.0,True,False,False,False
-Aruj Sharma,aruj123sharma@gmail.com,Shivam sharma,shivams334@gmail.com,0.6666666666666667,0.34782608695652173,0.19999999999999996,1.0,False,False,True,False
-Aruj Sharma,aruj123sharma@gmail.com,tacitvenom,vasu.sharma314@gmail.com,0.19047619047619047,0.5925925925925926,0.1428571428571429,0.0,True,False,False,False
 Asim Hanif,asimjutt2003@gmail.com,Hanif Ali,alihanif016@gmail.com,0.5263157894736843,0.26086956521739135,0.4444444444444444,0.5,True,False,False,False
-Avkaran singh,avkaransingh357@gmail.com,Ramandeep Singh,raman77768@gmail.com,0.6428571428571428,0.31999999999999995,0.375,1.0,False,False,True,False
-Avkaran singh,avkaransingh357@gmail.com,SHAKTI SINGH,mohittanwar2323@gmail.com,0.64,0.2666666666666667,0.3076923076923077,1.0,False,False,True,False
-Avkaran singh,avkaransingh357@gmail.com,Snimerjot Singh,snimersingh1729@gmail.com,0.5,0.4666666666666667,0.125,1.0,False,False,True,False
-Avkaran singh,avkaransingh357@gmail.com,piyush-kgp,piyushsinghkgpian@gmail.com,0.18181818181818177,0.3125,0.125,0.0,True,False,False,False
-Ayush Raj,rajayush213@gmail.com,Raj,raj1998211@gmail.com,0.5,0.47619047619047616,0.25,0.0,True,False,False,False
-Ayush Raj,rajayush213@gmail.com,Santosh Mohan Rajkumar,rajkumar.nits@gmail.com,0.4516129032258065,0.41666666666666663,0.5,0.3529411764705882,True,False,False,False
-Ayush Raj,rajayush213@gmail.com,brajesh-rit,brajesh_rit@yahoo.co.in,0.42105263157894735,0.4545454545454546,0.4,0.0,True,False,False,False
-Ayush Raj,rajayush213@gmail.com,dheerajreddymumma,dheerajreddymumma@gmail.com,0.3076923076923077,0.3571428571428571,0.2727272727272727,0.0,True,False,False,False
 Caeden,caedenperelliharris@gmail.com,Caeden Perelli-Harris,caedenperelliharris@gmail.com,0.46153846153846156,1.0,1.0,0.0,False,False,True,True
-Caio Cordeiro,ccmr@cesar.school,Vinicius Cordeiro,marcos.cordeiroal@gmail.com,0.7333333333333334,0.2857142857142857,0.33333333333333337,1.0,True,False,False,False
-Chetan Kaushik,dynamitechetan@gmail.com,Tan Yong He,tyhshana@hotmail.com,0.4,0.36363636363636365,0.6666666666666667,0.1428571428571429,False,False,False,True
-Chris Jim,chrisjim316@gmail.com,Chris McLennon,mclennon@indeed.com,0.6086956521739131,0.10526315789473684,1.0,0.18181818181818177,False,False,False,True
-Christian Bender,christianbender89@web.de,Christian Clauss,cclauss@me.com,0.625,0.16666666666666663,1.0,0.0,False,False,False,True
 Christian Bender,christianbender89@web.de,christianbender,christianbender89@web.de,0.967741935483871,1.0,0.75,0.0,True,True,False,False
 Christian Clauss,cclauss@me.com,cclauss,cclauss@bluewin.ch,0.6086956521739131,1.0,0.25,0.0,True,False,False,False
 Christian Clauss,cclauss@me.com,cclauss,cclauss@me.com,0.6086956521739131,1.0,0.25,0.0,True,False,False,False
-Christian Clauss,cclauss@me.com,christianbender,christianbender89@web.de,0.5806451612903225,0.16666666666666663,0.75,0.0,False,True,False,False
-Corey Hu,corey.huym@gmail.com,Saba Pochkhua,saba.pochkhua@gmail.com,0.2857142857142857,0.26086956521739135,0.0,0.4,True,False,False,False
-Corey Hu,corey.huym@gmail.com,kanthuc,srikanthuchavali@gmail.com,0.2666666666666667,0.23076923076923073,0.16666666666666663,0.0,True,False,False,False
 Damel,dlambertpowell@gmail.com,damelLP,dlambertpowell@gmail.com,0.8333333333333334,1.0,0.8333333333333334,1.0,False,False,False,False
-Dan Murphy,danielmurph8@gmail.com,Daniel Ingram,ingramds@appstate.edu,0.4347826086956522,0.19999999999999996,0.6666666666666667,0.16666666666666663,False,False,False,True
-Dan Murphy,danielmurph8@gmail.com,Daniel Pustotin,daniel.pustotin@gmail.com,0.4,0.5185185185185186,0.6666666666666667,0.1428571428571429,False,False,False,True
-Daniel Ingram,ingramds@appstate.edu,Daniel Pustotin,daniel.pustotin@gmail.com,0.6428571428571428,0.17391304347826086,1.0,0.2857142857142857,False,True,False,False
-Daniel Ingram,ingramds@appstate.edu,Md. Mahbubur Rahman,mahbuburrahman2111@gmail.com,0.3870967741935484,0.23076923076923073,0.25,0.2857142857142857,False,False,False,True
 DeepakNautiyal987,deepaknautiyal07@outlook.com,nautiyaldeepak,deepaknautiyal07@outlook.com,0.5161290322580645,1.0,0.5161290322580645,1.0,False,False,False,False
 Dhruv,dhruvmanila@gmail.com,Dhruv Manilawala,dhruvmanila@gmail.com,0.47619047619047616,1.0,1.0,0.0,False,False,False,True
 Du YuanChao,shellhub.me@gmail.com,Du Yuanchao,shellhub.me@gmail.com,1.0,1.0,1.0,1.0,False,False,False,False
-Du YuanChao,shellhub.me@gmail.com,duongoku,nguyenvubinhduong@gmail.com,0.42105263157894735,0.2142857142857143,0.4,0.0,False,True,False,False
 Du YuanChao,shellhub.me@gmail.com,杜远超,shellhub.me@gmail.com,0.0,1.0,0.0,0.0,False,False,False,False
-Du Yuanchao,shellhub.me@gmail.com,duongoku,nguyenvubinhduong@gmail.com,0.42105263157894735,0.2142857142857143,0.4,0.0,False,True,False,False
 Du Yuanchao,shellhub.me@gmail.com,杜远超,shellhub.me@gmail.com,0.0,1.0,0.0,0.0,False,False,False,False
-Erwin Junge,erwin@junge.nl,Erwin Lejeune,erwin.lejeune15@gmail.com,0.8333333333333334,0.5,1.0,0.6666666666666667,False,True,False,False
-Ethan Vieira,ethanvieira@gmail.com,fannyvieira,fanny.vieira@ccc.ufcg.edu.br,0.6956521739130435,0.6956521739130435,0.25,0.0,True,False,False,False
-Francisco Matias,franciscomatias@alu.ufc.br,Om Alve,omalve8174@gmail.com,0.26086956521739135,0.24,0.18181818181818177,0.19999999999999996,False,False,False,True
-Francisco Matias,franciscomatias@alu.ufc.br,Om Ashishkumar Soni,oms279400@gmail.com,0.34285714285714286,0.25,0.18181818181818177,0.36363636363636365,False,False,False,True
 GirijaManoj kumar reddy Kalakoti,kgmkr00001@gmail.com,girijamanojkumarreddy,kgmkr00001@gmail.com,0.7924528301886793,1.0,0.6875,0.0,False,False,False,False
-Hanif Ali,alihanif016@gmail.com,Maliha,maliha_786@hotmail.com,0.4,0.5714285714285714,0.36363636363636365,0.0,True,False,False,False
-Hanif Ali,alihanif016@gmail.com,kanthuc,srikanthuchavali@gmail.com,0.25,0.2962962962962963,0.33333333333333337,0.0,True,False,False,False
-Hanif Ali,alihanif016@gmail.com,malikshubham827,malikshubham827@gmail.com,0.25,0.3846153846153846,0.19999999999999996,0.0,True,False,False,False
 Harshil,darjiharshil2994@gmail.com,Harshil Darji,darjiharshil2994@gmail.com,0.7,1.0,1.0,0.0,False,False,True,True
 Harshil,darjiharshil2994@gmail.com,harshildarji,darjiharshil2994@gmail.com,0.736842105263158,1.0,0.736842105263158,1.0,False,False,False,False
 Harshil Darji,darjiharshil2994@gmail.com,harshildarji,darjiharshil2994@gmail.com,0.96,1.0,0.736842105263158,0.0,True,True,False,False
-Harshit Kumar,kumar_harshit@outlook.com,Rishabh Kumar,rishabh0098@gmail.com,0.6923076923076923,0.33333333333333337,0.4285714285714286,1.0,False,False,True,False
 Hector S,hfsam88@gmail.com,Sam Holst,sawohol@gmail.com,0.3529411764705882,0.2857142857142857,0.0,0.33333333333333337,False,False,False,True
-Hetarth Jain,hetarth.jain@gmail.com,SiddhantJain15,siddhant.jain150397@gmail.com,0.5384615384615384,0.5161290322580645,0.2857142857142857,0.0,True,False,False,False
-Himanshu Tomar,himanshutomar3031@gmail.com,Om Alve,omalve8174@gmail.com,0.2857142857142857,0.2962962962962963,0.19999999999999996,0.2222222222222222,False,False,False,True
-Himanshu Tomar,himanshutomar3031@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.48484848484848486,0.23076923076923073,0.19999999999999996,0.2857142857142857,False,False,False,True
-Honey Sharma,softwaretester2016pro@gmail.com,Jitendra_Sharma,jitendra.sharma_cs16@gla.ac.in,0.5384615384615384,0.29268292682926833,0.10526315789473684,0.0,True,False,False,False
-Honey Sharma,softwaretester2016pro@gmail.com,tacitvenom,vasu.sharma314@gmail.com,0.18181818181818177,0.22857142857142854,0.1333333333333333,0.0,True,False,False,False
 Hossam Al-Dokkani,hossam.o@trufla.com,Sam Holst,sawohol@gmail.com,0.4,0.4,0.6666666666666667,0.1428571428571429,False,False,False,True
 Isidro,isidroariass@hotmail.es,isidroas,isidroariass@hotmail.es,0.8571428571428572,1.0,0.8571428571428572,1.0,False,False,False,False
 Jacob Bonek,jake.bonek@gmail.com,JakeBonek,jake.bonek@gmail.com,0.7,1.0,0.4285714285714286,0.0,True,False,False,False
-James Mc Dermott,james.mcdermott89@gmail.com,theycallmemac,james.mcdermott89@gmail.com,0.3448275862068966,1.0,0.33333333333333337,0.0,False,True,False,False
-Jaydeep Das,jaydeepjd.1125@gmail.com,Jaydeep Das,jaydeepjd.8914@gmail.com,1.0,0.7857142857142857,1.0,1.0,False,True,False,True
-Jie Han,jay.cn@outlook.com,Jonathan Alberth Quispe Fuentes,qf.jonathan@gmail.com,0.26315789473684215,0.3529411764705882,0.18181818181818177,0.16000000000000003,True,False,False,False
-Jie Han,jay.cn@outlook.com,Rohan R Bharadwaj,rohanrbharadwaj@gmail.com,0.25,0.19047619047619047,0.0,0.2857142857142857,True,False,False,False
-Jie Han,jay.cn@outlook.com,SiddhantJain15,siddhant.jain150397@gmail.com,0.38095238095238093,0.24,0.23529411764705888,0.0,True,False,False,False
-Jie Han,jay.cn@outlook.com,bT-53,phanu.bjstp@gmail.com,0.0,0.23529411764705888,0.0,0.0,True,False,False,False
-Jitendra_Sharma,jitendra.sharma_cs16@gla.ac.in,Shivam sharma,shivams334@gmail.com,0.5925925925925926,0.33333333333333337,0.4,0.0,False,False,True,False
-Jithendra Yenugula,jithendra1230@gmail.com,The Data Lady,tinubaby@gmail.com,0.5161290322580645,0.2857142857142857,0.5,0.23529411764705888,False,False,False,True
-JoaoVictorNascimento,joao_victorxy@hotmail.com,Víctor A. Rodríguez,victor@bit-man.guru,0.4736842105263158,0.631578947368421,0.46153846153846156,0.0,False,False,False,True
-Joaquin Cabezas,joaquincabezas@gmail.com,Steven Qu,stevenqu2001@gmail.com,0.16666666666666663,0.15384615384615385,0.15384615384615385,0.0,False,False,True,False
-João Gustavo A. Amorim,joaogustavoamorim@gmail.com,João Marcos,joao.medeiros@ccc.ufcg.edu.br,0.4375,0.4,1.0,0.18181818181818177,False,False,False,True
-Jr Miranda,sjrmiranda@gmail.com,dheerajreddymumma,dheerajreddymumma@gmail.com,0.2962962962962963,0.2962962962962963,0.21052631578947367,0.0,False,True,False,False
-Juan Antonio,juant.aldea@gmail.com,Juan Dupierris,dupierris.juan@gmail.com,0.46153846153846156,0.31999999999999995,1.0,0.125,False,True,False,True
-Julien Castiaux,Julien.castiaux@gmail.com,Julien Richard,julienrichard98@gmail.com,0.6206896551724138,0.4666666666666667,1.0,0.2666666666666667,False,True,False,False
-Kushagra Bansal,kushagrabansalajmer@gmail.com,Shrutika Bansal,ssb2361998@gmail.com,0.7333333333333334,0.13793103448275867,0.5,1.0,False,False,True,False
+James Mc Dermott,james.mcdermott89@gmail.com,theycallmemac,james.mcdermott89@gmail.com,0.3448275862068966,1.0,0.33333333333333337,0.0,False,False,False,False
+Jaydeep Das,jaydeepjd.1125@gmail.com,Jaydeep Das,jaydeepjd.8914@gmail.com,1.0,0.7857142857142857,1.0,1.0,False,False,False,False
 Lane Douthit,ltdouthit@email.arizona.edu,lane,ltdouthit@email.arizona.edu,0.5,1.0,1.0,0.0,True,False,False,False
-Libin Yang,contact@yanglibin.info,Libin Yang,szuyanglb@outlook.com,1.0,0.125,1.0,1.0,True,False,False,False
+Libin Yang,contact@yanglibin.info,Libin Yang,szuyanglb@outlook.com,1.0,0.125,1.0,1.0,False,False,False,False
 Libin Yang,contact@yanglibin.info,Mickaël Schoentgen,contact@tiger-222.fr,0.2857142857142857,1.0,0.16666666666666663,0.2857142857142857,False,False,False,False
-Lukas,lukas.aurelius@outlook.com,Sichen Liu,sl2947@cornell.edu,0.2666666666666667,0.19999999999999996,0.18181818181818177,0.0,False,False,True,False
 Maciej A. Czyzewski,mail@maciejczyzewski.me,Martmists,mail@martmists.com,0.2962962962962963,1.0,0.4,0.0,False,False,False,False
 Marcos Vinicius,mvhb@cin.ufpe.br,mvhb,mvhb@cin.ufpe.br,0.21052631578947367,1.0,0.19999999999999996,0.0,False,False,False,False
 Mark,markhappy200@gmail.com,Mark Huang,hhzeos@gmail.com,0.5714285714285714,0.11111111111111116,1.0,0.0,False,False,False,True
-Mark,markhappy200@gmail.com,Mark Mayo,mark@there.co.nz,0.6153846153846154,0.5,1.0,0.0,False,False,False,True
-Mark,markhappy200@gmail.com,Mark Moretto,otteromkram@gmail.com,0.5,0.26086956521739135,1.0,0.0,False,False,False,True
-Mark Mayo,mark@there.co.nz,Mark Moretto,otteromkram@gmail.com,0.6666666666666667,0.2666666666666667,1.0,0.36363636363636365,False,False,False,True
-Mark Moretto,otteromkram@gmail.com,Om Alve,omalve8174@gmail.com,0.3157894736842105,0.2857142857142857,0.33333333333333337,0.18181818181818177,False,False,False,True
-Mark Moretto,otteromkram@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.3870967741935484,0.19999999999999996,0.33333333333333337,0.26086956521739135,False,False,False,True
-Matheus Guimarães,matheusguimr@gmail.com,Matheus T. Guimarães,matheusguimr@gmail.com,0.9444444444444444,1.0,1.0,0.9,False,True,False,True
-Matthew Wisdom,matthewwisdom11@gmail.com,Om Alve,omalve8174@gmail.com,0.2857142857142857,0.31999999999999995,0.2222222222222222,0.0,False,False,False,True
-Matthew Wisdom,matthewwisdom11@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.36363636363636365,0.16666666666666663,0.2222222222222222,0.2727272727272727,False,False,False,True
-Matthew Wisdom,matthewwisdom11@gmail.com,The Data Lady,tinubaby@gmail.com,0.37037037037037035,0.17391304347826086,0.6,0.1333333333333333,False,False,False,True
+Matheus Guimarães,matheusguimr@gmail.com,Matheus T. Guimarães,matheusguimr@gmail.com,0.9444444444444444,1.0,1.0,0.9,False,True,False,False
 Mavroudo,mavroudo@csd.auth.gr,MindTraper,mavroudo@csd.auth.gr,0.33333333333333337,1.0,0.33333333333333337,1.0,False,False,False,False
-Melih Mehmet Sahin,msahin8765@gmail.com,Nadirhan Şahin,sahinadirhan@gmail.com,0.5,0.4545454545454546,0.3076923076923077,0.5882352941176471,False,False,True,False
 Meysam,MeysamAzad81@gmail.com,Meysam,MeysamAzad81@yahoo.com,1.0,1.0,1.0,1.0,False,False,False,False
-Milad Khoshdel,miladkhoshdel@gmail.com,Milad Sadeghi DM,Cor3Down@ProtonMail.ch,0.6,0.09523809523809523,1.0,0.33333333333333337,False,False,False,True
-Naveen Arunachalam,naveen.t.arun@gmail.com,Naveen Namani,naveennamani877@gmail.com,0.6451612903225806,0.5714285714285714,1.0,0.3529411764705882,False,True,False,True
-Nikhil Kala,nikhilkala8@gmail.com,Nikhil Nayak,nikhil.nixel@gmail.com,0.782608695652174,0.6086956521739131,1.0,0.4444444444444444,False,True,False,True
-Nikhil Nayak,nikhil.nixel@gmail.com,Vinayak Upadhyay,vinayakupadhyay42@gmail.com,0.4285714285714286,0.2068965517241379,0.3076923076923077,0.46153846153846156,True,False,False,False
-Nikhil Nayak,nikhil.nixel@gmail.com,vinayak,itssvinayak@gmail.com,0.631578947368421,0.26086956521739135,0.3076923076923077,0.0,True,False,False,False
 Noah H,noah@nthall.com,Noah H,root@flameazalea.com,1.0,0.25,1.0,1.0,False,False,False,False
 Om Alve,omalve8174@gmail.com,Om Ashishkumar Soni,oms279400@gmail.com,0.3076923076923077,0.42105263157894735,1.0,0.09999999999999998,False,False,False,True
-Om Alve,omalve8174@gmail.com,Omkar Pathak,omkarpathak27@gmail.com,0.42105263157894735,0.34782608695652173,0.5714285714285714,0.19999999999999996,False,True,False,False
-Om Alve,omalve8174@gmail.com,Vasu Tomar,vasutomar26@gmail.com,0.3529411764705882,0.2857142857142857,0.0,0.2222222222222222,False,True,False,False
-Om Alve,omalve8174@gmail.com,gabriel,gabriel.goncalves@trilogo.com.br,0.2857142857142857,0.37037037037037035,0.0,0.0,True,False,False,False
-Om Alve,omalve8174@gmail.com,roger-sato,pyomta13@gmail.com,0.25,0.4444444444444444,0.18181818181818177,0.0,False,True,False,False
-Om Ashishkumar Soni,oms279400@gmail.com,Omkar Pathak,omkarpathak27@gmail.com,0.3870967741935484,0.36363636363636365,0.5714285714285714,0.2727272727272727,False,True,False,False
-Om Ashishkumar Soni,oms279400@gmail.com,Vasu Tomar,vasutomar26@gmail.com,0.4137931034482759,0.30000000000000004,0.0,0.2857142857142857,False,True,False,False
-Om Ashishkumar Soni,oms279400@gmail.com,roger-sato,pyomta13@gmail.com,0.2857142857142857,0.23529411764705888,0.18181818181818177,0.0,False,True,False,False
-Omkar Pathak,omkarpathak27@gmail.com,Tapasweni Pathak,tapaswenipathak@gmail.com,0.5714285714285714,0.5,0.1428571428571429,1.0,False,False,True,False
-PAUL ADUTWUM,pauladutwum303@gmail.com,Paulo S. G. Ferraz,paulosgf.pf@gmail.com,0.4285714285714286,0.31999999999999995,0.8888888888888888,0.11764705882352944,False,True,False,False
-PAUL ADUTWUM,pauladutwum303@gmail.com,Thejus-Paul,thejuspaul@protonmail.ch,0.36363636363636365,0.33333333333333337,0.5714285714285714,0.0,False,True,False,False
-Parth Paradkar,parthparadkar3@gmail.com,Parth Satodiya,parth.satodiya@gmail.com,0.6428571428571428,0.5714285714285714,1.0,0.375,False,True,False,False
-Parth Paradkar,parthparadkar3@gmail.com,Parth Shandilya,parth1989shandilya@gmail.com,0.6206896551724138,0.5,1.0,0.3529411764705882,False,True,False,False
-Parth Paradkar,parthparadkar3@gmail.com,ParthS007,parth1989shandilya@gmail.com,0.4347826086956522,0.5,0.7142857142857143,0.0,False,True,False,False
-Parth Satodiya,parth.satodiya@gmail.com,Parth Shandilya,parth1989shandilya@gmail.com,0.8275862068965517,0.6875,1.0,0.7058823529411764,False,True,False,True
-Parth Satodiya,parth.satodiya@gmail.com,ParthS007,parth1989shandilya@gmail.com,0.5217391304347826,0.6875,0.7142857142857143,0.0,False,True,False,False
-Parth Shandilya,parth1989shandilya@gmail.com,ParthS007,parth1989shandilya@gmail.com,0.5,1.0,0.7142857142857143,0.0,True,True,False,False
-Phileas,phileas.hocquard@gmail.com,Steven Qu,stevenqu2001@gmail.com,0.125,0.2142857142857143,0.15384615384615385,0.0,False,False,True,False
-Prateek Chanda,prateekkol21@gmail.com,Ridiculous Ate,programmingdedication@gmail.com,0.2857142857142857,0.303030303030303,0.11764705882352944,0.2222222222222222,False,False,True,False
-Pravin,pravinkori@protonmail.ch,Ravi Kandasamy Sundaram,ksr1122@gmail.com,0.3448275862068966,0.23529411764705888,0.8,0.0,False,False,False,True
+Parth Shandilya,parth1989shandilya@gmail.com,ParthS007,parth1989shandilya@gmail.com,0.5,1.0,0.7142857142857143,0.0,True,False,False,False
 Pravin,pravinkori@protonmail.ch,Ravi Patel,ravi.patel1245@gmail.com,0.5,0.33333333333333337,0.8,0.0,False,False,False,True
-Rafa leyva,rafael.leyva@4iq.com,Rafael,rafaelleru95103@gmail.com,0.625,0.5925925925925926,0.8,0.0,False,True,False,False
-Rafa leyva,rafael.leyva@4iq.com,Rafael Leyva Ruiz,rafaelleru95103@gmail.com,0.7407407407407407,0.5925925925925926,0.8,0.6666666666666667,False,True,False,True
 Rafael,rafaelleru95103@gmail.com,Rafael Leyva Ruiz,rafaelleru95103@gmail.com,0.5217391304347826,1.0,1.0,0.0,False,False,False,True
 Rafael García Cuéllar,r.gc@hotmail.es,rafagarciac,r.gc@hotmail.es,0.6875,1.0,0.47058823529411764,0.0,False,False,False,False
-Ramandeep Singh,raman77768@gmail.com,Snimerjot Singh,snimersingh1729@gmail.com,0.5333333333333333,0.24,0.2222222222222222,1.0,True,False,False,False
 Ravi Patel,ravi.patel1245@gmail.com,Ridiculous Ate,programmingdedication@gmail.com,0.5,0.2857142857142857,0.2857142857142857,0.75,False,False,True,False
 Reshad Hasan,reshadhasan555@gmail.com,Rizwan Hasan,rizwan.hasan486@gmail.com,0.6666666666666667,0.48275862068965514,0.33333333333333337,1.0,True,False,True,False
 RiptideBo,245885195@qq.com,Stephen Lee,245885195@qq.com,0.19999999999999996,1.0,0.25,0.0,False,False,False,False
 Rishabh Kumar,rishabh0098@gmail.com,Santosh Mohan Rajkumar,rajkumar.nits@gmail.com,0.5142857142857142,0.25,0.4285714285714286,0.5263157894736843,True,False,False,False
-Rishabh Kumar,rishabh0098@gmail.com,Srikumar Sastry,srikumarsastry1997@gmail.com,0.5,0.3448275862068966,0.4,0.36363636363636365,True,False,False,False
-Rishabh Kumar,rishabh0098@gmail.com,kunal kumar barman,kumar96kunal@gmail.com,0.4516129032258065,0.17391304347826086,0.16666666666666663,0.5882352941176471,True,False,False,False
 Robert Bergers,bergersr@my.easternct.edu,Robert Bergers,me@robertbergers.com,1.0,0.19999999999999996,1.0,1.0,False,False,True,False
-Robert Bergers,bergersr@my.easternct.edu,Roberts,roberts.trops@gmail.com,0.6666666666666667,0.47619047619047616,0.9230769230769231,0.0,False,True,False,False
-Robert Bergers,me@robertbergers.com,Roberts,roberts.trops@gmail.com,0.6666666666666667,0.1333333333333333,0.9230769230769231,0.0,False,True,False,False
 Robert Bergers,me@robertbergers.com,Sergey Tsaplin,me@sergeytsaplin.com,0.3571428571428571,1.0,0.33333333333333337,0.1428571428571429,False,False,False,False
-Rohan R Bharadwaj,rohanrbharadwaj@gmail.com,adith bharadwaj,adithbharadwaj@gmail.com,0.6875,0.6896551724137931,0.19999999999999996,0.9,False,False,True,False
-Rohit Gupta,rohit1997gupta@gmail.com,Saransh Gupta,saranshgupta1995@gmail.com,0.6666666666666667,0.4666666666666667,0.33333333333333337,1.0,True,False,False,False
 SHAKTI SINGH,mohittanwar2323@gmail.com,Snimerjot Singh,snimersingh1729@gmail.com,0.5925925925925926,0.2666666666666667,0.2666666666666667,1.0,True,False,False,False
-SHAKTI SINGH,mohittanwar2323@gmail.com,piyush-kgp,piyushsinghkgpian@gmail.com,0.38095238095238093,0.25,0.4,0.0,True,False,False,False
 Sachin Arora,sachinarora.707@gmail.com,Shivam Arora,shivam.arora@inficold.com,0.75,0.5925925925925926,0.5,1.0,True,False,True,False
-Sai Aswin Madhavan,saiaswin.211ec244@nitk.edu.in,Sai Harsha Kottapalli,k.saiharsha7@gmail.com,0.46153846153846156,0.3448275862068966,1.0,0.32258064516129037,False,True,False,False
-Sai Aswin Madhavan,saiaswin.211ec244@nitk.edu.in,dhruvsaini,dhruv_saini@outlook.com,0.3571428571428571,0.2857142857142857,0.46153846153846156,0.0,False,True,False,False
-Sai Harsha Kottapalli,k.saiharsha7@gmail.com,dhruvsaini,dhruv_saini@outlook.com,0.32258064516129037,0.34782608695652173,0.46153846153846156,0.0,False,True,False,False
 Saksham Saha,sakshamsaha1212+github@gmail.com,Sarbajit Saha,sarbajitsaha1@gmail.com,0.64,0.4571428571428572,0.4,1.0,True,False,True,False
-Sam Holst,sawohol@gmail.com,Samarth Sehgal,samarthsehgal97@gmail.com,0.5217391304347826,0.36363636363636365,0.6,0.36363636363636365,False,True,False,False
-Sanders Lin,sandershonglin@gmail.com,robohie,rogerbosolinndo34@gmail.com,0.2222222222222222,0.4516129032258065,0.1428571428571429,0.0,True,False,False,False
 Saransh Gupta,saranshgupta1995@gmail.com,Suyash Gupta,sgalpha01@gmail.com,0.8,0.4,0.6153846153846154,1.0,False,False,True,False
 Saransh Gupta,saranshgupta1995@gmail.com,shivg7706,shivamgupta7706@gmail.com,0.2727272727272727,0.4516129032258065,0.25,0.0,True,False,False,False
-Sarath Kaul,kaul.sarath@gmail.com,Sarath Kaul,sarath.kaul@searce.com,1.0,0.5454545454545454,1.0,1.0,True,True,True,True
-Shivam Arora,shivam.arora@inficold.com,Shivam sharma,shivams334@gmail.com,0.8,0.5454545454545454,1.0,0.5454545454545454,False,True,False,True
-Shivam Arora,shivam.arora@inficold.com,shivg7706,shivamgupta7706@gmail.com,0.38095238095238093,0.5185185185185186,0.5333333333333333,0.0,False,True,False,False
-Shivam sharma,shivams334@gmail.com,shivg7706,shivamgupta7706@gmail.com,0.36363636363636365,0.48,0.5333333333333333,0.0,False,True,False,False
-Shivam sharma,shivams334@gmail.com,tacitvenom,vasu.sharma314@gmail.com,0.26086956521739135,0.5,0.375,0.0,True,False,False,False
-Shivansh Bhatnagar,shivansh111sid@gmail.com,Shivansh Nalwaya,siddnlw@gmail.com,0.7058823529411764,0.2857142857142857,1.0,0.375,False,False,False,True
-Shubham Shaswat,shaswat.cpp@gmail.com,malikshubham827,malikshubham827@gmail.com,0.4666666666666667,0.23076923076923073,0.6363636363636364,0.0,False,True,False,False
-Siddhant Totade,siddhanttotade.1994@gmail.com,SiddhantJain15,siddhant.jain150397@gmail.com,0.6206896551724138,0.5789473684210527,0.7272727272727273,0.0,False,True,False,False
+Sarath Kaul,kaul.sarath@gmail.com,Sarath Kaul,sarath.kaul@searce.com,1.0,0.5454545454545454,1.0,1.0,True,False,False,True
 Simon Lammer,lammer.simon@gmail.com,Simon Landry,landry_simon@pm.me,0.75,0.6666666666666667,1.0,0.5,False,True,False,True
-Snimerjot Singh,snimersingh1729@gmail.com,piyush-kgp,piyushsinghkgpian@gmail.com,0.25,0.375,0.11111111111111116,0.0,True,False,False,False
 Sohan Rudra,sohanrudra@gmail.com,rudrasohan,sohanrudra@gmail.com,0.47619047619047616,1.0,0.6666666666666667,0.0,True,True,False,False
 Sohan Rudra,sohanrudra@gmail.com,rudrasohan,soharudra@gmail.com,0.47619047619047616,0.9473684210526316,0.6666666666666667,0.0,True,False,False,False
 Stephen Lee,245885195@qq.com,Syed Waleed Hyder,syedwaleedhyder@gmail.com,0.4285714285714286,0.0,0.36363636363636365,0.4,True,False,False,False
 Suyash Gupta,sgalpha01@gmail.com,shivg7706,shivamgupta7706@gmail.com,0.2857142857142857,0.41666666666666663,0.2666666666666667,0.0,True,False,False,False
-Syed Haseeb Shah,yesiamhasi@gmail.com,Syed Waleed Hyder,syedwaleedhyder@gmail.com,0.6060606060606061,0.31999999999999995,1.0,0.4347826086956522,False,True,False,False
-"Tan Kai Qun, Jeremy",tan_kai_qun97@yahoo.com.sg,Tanay Karve,tanaykarve@gmail.com,0.5517241379310345,0.4347826086956522,0.75,0.42105263157894735,False,True,False,False
-"Tan Kai Qun, Jeremy",tan_kai_qun97@yahoo.com.sg,Tauseef Hilal Tantary,tantary.tauseef.atwork@gmail.com,0.41025641025641024,0.2857142857142857,0.4,0.37037037037037035,False,True,False,False
-Tan Yong He,tyhshana@hotmail.com,Tanay Karve,tanaykarve@gmail.com,0.5454545454545454,0.4444444444444444,0.75,0.16666666666666663,False,True,False,False
-Tan Yong He,tyhshana@hotmail.com,Tauseef Hilal Tantary,tantary.tauseef.atwork@gmail.com,0.25,0.2666666666666667,0.4,0.09999999999999998,False,True,False,False
 Utkarsh Chaudhary,f2016303@pilani.bits-pilani.ac.in,Utkarsh Chaudhary,ucponia@gmail.com,1.0,0.0,1.0,1.0,False,False,False,False
-Vishal Gupta,vishalg8897@gmail.com,shivg7706,shivamgupta7706@gmail.com,0.2857142857142857,0.3846153846153846,0.2666666666666667,0.0,True,False,False,False
 Vivek,vicky.p8980@gmail.com,Vivek,vivektheintel@gmail.com,1.0,0.25,1.0,1.0,False,False,False,False
 Volodymyr,klymenkodp@gmail.com,Volodymyr Klymenko,klymenkodp@gmail.com,0.6666666666666667,1.0,1.0,0.0,False,False,False,False
 cclauss,cclauss@bluewin.ch,cclauss,cclauss@me.com,1.0,1.0,1.0,1.0,False,False,False,False

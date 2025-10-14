@@ -5,6 +5,7 @@ import string
 from itertools import combinations
 from Levenshtein import ratio as sim
 import os
+import functions as f
 
 # This block of code take the repository, fetches all the commits,
 # retrieves name and email of both the author and commiter and saves the unique
@@ -13,6 +14,8 @@ import os
 # so for a big project better clone the repo locally and provide filesystem path
 
 from pydriller import Repository
+
+
 
 print("nyt lähtee")
 
@@ -97,16 +100,21 @@ for dev_a, dev_b in combinations(DEVS, 2):
         continue
 
     # Conditions of Bird heuristic
-    c1 = sim(name_a, name_b)
-    c2 = sim(prefix_b, prefix_a)
-    c31 = sim(first_a, first_b)
-    c32 = sim(last_a, last_b)
-    c4 = c5 = c6 = c7 = False
+    c1 = c2 = c31 = c32 = c4 = c5 = c6 = c7 = False
+    #empty names were considered the same, so check if they are empty
+    if(name_a != "" and name_b != "" and prefix_a != "" and prefix_b != ""):
+        c1 = sim(name_a, name_b)
+        c2 = sim(prefix_b, prefix_a)
+        c31 = sim(first_a, first_b)
+        c32 = sim(last_a, last_b)
+    
     # Since lastname and initials can be empty, perform appropriate checks
     '''
     alla olevat ehdot ovat selvästi liian löyhiä. Jos käyttäjän 1 koko sukunimi on yksi kirjain, 
     tarvitsee vain käyttäjän 2 spostin etuliitteen sisältää käyttäjän 1 etunimen eka kirjain ja sukunimen eka kirjain.
-    Kokeilen jättää nämä väliin niiltä, joilla on vain yhden merkin mittainen etu- tai sukunimi. 
+    Kokeilen jättää nämä väliin niiltä, joilla on vain yhden merkin mittainen etu- tai sukunimi. Ei auttanut. Kokeillaan lisätä ehtoihin se, että 
+    alkukirjaimen on oltava ensimmäisenä sen jälkeen, kun toinen nimi on poistettu.
+    '''
     '''
     if(len(last_a) > 1 and len(first_a) > 1):
         if i_first_a != "" and last_a != "":
@@ -118,6 +126,11 @@ for dev_a, dev_b in combinations(DEVS, 2):
             c6 = i_first_b in prefix_a and last_b in prefix_a
         if i_last_b != "":
             c7 = i_last_b in prefix_a and first_b in prefix_a
+    '''
+    c4 = f.containsNameAndInitial(prefix_b, i_first_a, last_a)
+    c5 = f.containsNameAndInitial(prefix_b, i_last_a, first_a)
+    c6 = f.containsNameAndInitial(prefix_a, i_first_b, last_b)
+    c7 = f.containsNameAndInitial(prefix_a, i_last_b, first_b)
 
     # Save similarity data for each conditions. Original names are saved
     SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
