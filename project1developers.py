@@ -76,16 +76,20 @@ def process(dev):
     #else:
         #clean_email = email
     prefix = email.split("@")[0]
+    
+    GENERIC_EMAILS = ["noreply", "contact", "info", "admin"]
+    is_generic = any(prefix.startswith(g) for g in GENERIC_EMAILS)
 
-    return name, first, last, i_first, i_last, email, prefix
+
+    return name, first, last, i_first, i_last, email, prefix, is_generic
 
 
 # Compute similarity between all possible pairs
 SIMILARITY = []
 for dev_a, dev_b in combinations(DEVS, 2):
     # Pre-process both developers
-    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a = process(dev_a)
-    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b = process(dev_b)
+    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a, is_generic_a = process(dev_a)
+    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, is_generic_b = process(dev_b)
 
     # Conditions of Bird heuristic
     c1 = sim(name_a, name_b)
@@ -102,29 +106,34 @@ for dev_a, dev_b in combinations(DEVS, 2):
         c6 = i_first_b in prefix_a and last_b in prefix_a
     if i_last_b != "":
         c7 = i_last_b in prefix_a and first_b in prefix_a
+        
+    #if is_generic_a or is_generic_b:
+        #c2 = 0
+        #c4 = c5 = c6 = c7 = False
 
     # Save similarity data for each conditions. Original names are saved
-    SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
+    SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7, is_generic_a, is_generic_b])
 
 
 
 # Save data on all pairs (might be too big -> comment out to avoid)
 cols = ["name_1", "email_1", "name_2", "email_2", "c1", "c2",
-        "c3.1", "c3.2", "c4", "c5", "c6", "c7"]
+        "c3.1", "c3.2", "c4", "c5", "c6", "c7", "is_generic_1", "is_generic_2"]
 df = pd.DataFrame(SIMILARITY, columns=cols)
 df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
 
 
 # Set similarity threshold, check c1-c3 against the threshold
-t=0.9
+t=0.7
 print("Threshold:", t)
 df["c1_check"] = df["c1"] >= t
 df["c2_check"] = df["c2"] >= t
 df["c3_check"] = (df["c3.1"] >= t) & (df["c3.2"] >= t)
 # Keep only rows where at least one condition is True --> // any == sum
-df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].sum(axis=1) >= 2]
+#df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].sum(axis=1) >= 2]
 
-#f = df[(df["c1_check"] & df["c2_check"] & df["c3_check"]) | (df[["c4", "c5", "c6", "c7"]].sum(axis=1) >= 2)]
+
+df = df[(df["c1_check"] | df["c2_check"] | df["c3_check"]) | (df[["c4", "c5", "c6", "c7"]].sum(axis=1) >= 2)]
 
 
 # Omit "check" columns, save to csv
