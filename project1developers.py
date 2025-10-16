@@ -15,10 +15,6 @@ import functions as f
 
 from pydriller import Repository
 
-
-
-print("nyt lähtee")
-
 DEVS = set()
 for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits():
      DEVS.add((commit.author.name, commit.author.email))
@@ -42,7 +38,6 @@ with open(os.path.join("project1devs", "devs.csv"), 'r', encoding="utf_8", newli
         DEVS.append(row)
 # First element is header, skip
 DEVS = DEVS[1:]
-
 
 # Function for pre-processing each name,email
 def process(dev):
@@ -92,12 +87,18 @@ for dev_a, dev_b in combinations(DEVS, 2):
     name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, domain_b = process(dev_b)
 
     #list of prefixes and email domains to filter:
-    #filteredPrefixes = []
+    filteredPrefixes = ["contact", "me", "mail"]
     filteredDomains = ["users.noreply.github.com"]
 
-    #filter out domains and prefixes
+    #filter out domains
     if ( (domain_a in filteredDomains) or (domain_b in filteredDomains) ):
         continue
+    #if the prefix is on the blacklist, name might be in domain instead, so domain and prefix are swapped in those cases.
+    if(prefix_a in filteredPrefixes):
+        prefix_a, domain_a = domain_a, prefix_a
+
+    if(prefix_b in filteredPrefixes):
+        prefix_b, domain_b = domain_b, prefix_b
 
     # Conditions of Bird heuristic
     c1 = c2 = c31 = c32 = c4 = c5 = c6 = c7 = False
@@ -108,29 +109,13 @@ for dev_a, dev_b in combinations(DEVS, 2):
         c31 = sim(first_a, first_b)
         c32 = sim(last_a, last_b)
     
-    # Since lastname and initials can be empty, perform appropriate checks
-    '''
-    alla olevat ehdot ovat selvästi liian löyhiä. Jos käyttäjän 1 koko sukunimi on yksi kirjain, 
-    tarvitsee vain käyttäjän 2 spostin etuliitteen sisältää käyttäjän 1 etunimen eka kirjain ja sukunimen eka kirjain.
-    Kokeilen jättää nämä väliin niiltä, joilla on vain yhden merkin mittainen etu- tai sukunimi. Ei auttanut. Kokeillaan lisätä ehtoihin se, että 
-    alkukirjaimen on oltava ensimmäisenä sen jälkeen, kun toinen nimi on poistettu.
-    '''
-    '''
-    if(len(last_a) > 1 and len(first_a) > 1):
-        if i_first_a != "" and last_a != "":
-            c4 = i_first_a in prefix_b and last_a in prefix_b
-        if i_last_a != "":
-            c5 = i_last_a in prefix_b and first_a in prefix_b
-    if(len(last_b) > 1 and len(first_b) > 1):
-        if i_first_b != "" and last_b != "":
-            c6 = i_first_b in prefix_a and last_b in prefix_a
-        if i_last_b != "":
-            c7 = i_last_b in prefix_a and first_b in prefix_a
-    '''
-    c4 = f.containsNameAndInitial(prefix_b, i_first_a, last_a)
-    c5 = f.containsNameAndInitial(prefix_b, i_last_a, first_a)
-    c6 = f.containsNameAndInitial(prefix_a, i_first_b, last_b)
-    c7 = f.containsNameAndInitial(prefix_a, i_last_b, first_b)
+    #Set similarity threshold 
+    t=0.9
+
+    c4 = f.containsNameAndInitial(prefix_b, i_first_a, first_a, last_a, t) 
+    c5 = f.containsNameAndInitial(prefix_b, i_last_a, last_a, first_a, t)
+    c6 = f.containsNameAndInitial(prefix_a, i_first_b, first_a, last_b, t)
+    c7 = f.containsNameAndInitial(prefix_a, i_last_b, last_b, first_b, t)
 
     # Save similarity data for each conditions. Original names are saved
     SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
@@ -144,8 +129,8 @@ df = pd.DataFrame(SIMILARITY, columns=cols)
 #df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
 
 
-# Set similarity threshold, check c1-c3 against the threshold
-t=0.9
+#check c1-c3 against the threshold
+
 print("Threshold:", t)
 df["c1_check"] = df["c1"] >= t
 df["c2_check"] = df["c2"] >= t
@@ -158,5 +143,3 @@ df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].any(axi
 df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]]
 df.to_csv(os.path.join("project1devs", f"devs_similarity_t={t}.csv"), index=False, header=True)
-
-print("valmis")
