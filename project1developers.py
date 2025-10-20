@@ -1,7 +1,5 @@
 import csv
 import pandas as pd
-import unicodedata
-import string
 from itertools import combinations
 from Levenshtein import ratio as sim
 import os
@@ -16,7 +14,7 @@ import functions as f
 from pydriller import Repository
 
 DEVS = set()
-for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits():
+for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits(): #this would only work on my pc
      DEVS.add((commit.author.name, commit.author.email))
      DEVS.add((commit.committer.name, commit.committer.email))
 
@@ -39,52 +37,16 @@ with open(os.path.join("project1devs", "devs.csv"), 'r', encoding="utf_8", newli
 # First element is header, skip
 DEVS = DEVS[1:]
 
-# Function for pre-processing each name,email
-def process(dev):
-    name: str = dev[0]
-
-    # Remove punctuation
-    trans = name.maketrans("", "", string.punctuation)
-    name = name.translate(trans)
-    # Remove accents, diacritics
-    name = unicodedata.normalize('NFKD', name)
-    name = ''.join([c for c in name if not unicodedata.combining(c)])
-    # Lowercase
-    name = name.casefold()
-    # Strip whitespace
-    name = " ".join(name.split())
 
 
-    # Attempt to split name into firstname, lastname by space
-    parts = name.split(" ")
-    # Expected case
-    if len(parts) == 2:
-        first, last = parts
-    # If there is no space, firstname is full name, lastname empty
-    elif len(parts) == 1:
-        first, last = name, ""
-    # If there is more than 1 space, firstname is until first space, rest is lastname
-    else:
-        first, last = parts[0], " ".join(parts[1:])
-
-    # Take initials of firstname and lastname if they are long enough
-    i_first = first[0] if len(first) > 1 else ""
-    i_last = last[0] if len(last) > 1 else ""
-
-    # Determine email prefix
-    email: str = dev[1]
-    prefix = email.split("@")[0]
-    domain = email.split("@")[1]
-
-    return name, first, last, i_first, i_last, email, prefix, domain
 
 
 # Compute similarity between all possible pairs
 SIMILARITY = []
 for dev_a, dev_b in combinations(DEVS, 2):
     # Pre-process both developers
-    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a, domain_a = process(dev_a)
-    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, domain_b = process(dev_b)
+    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a, domain_a = f.process(dev_a)
+    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, domain_b = f.process(dev_b)
 
     #list of prefixes and email domains to filter:
     filteredPrefixes = ["contact", "me", "mail"]
