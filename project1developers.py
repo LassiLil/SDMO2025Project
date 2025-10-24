@@ -14,7 +14,9 @@ import functions as f
 from pydriller import Repository
 
 DEVS = set()
-for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits(): #this would only work on my pc
+#for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits(): #this would only work on my pc
+#for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\llama_index").traverse_commits():
+for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\bootstrap").traverse_commits():
      DEVS.add((commit.author.name, commit.author.email))
      DEVS.add((commit.committer.name, commit.committer.email))
 
@@ -49,7 +51,7 @@ for dev_a, dev_b in combinations(DEVS, 2):
     name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, domain_b = f.process(dev_b)
 
     #list of prefixes and email domains to filter:
-    filteredPrefixes = ["contact", "me", "mail"]
+    filteredPrefixes = ["contact", "me", "mail", "github", "hello", "i", "hi", "info", "dev", "code", "developer", "public", "git", "j"]
     filteredDomains = ["users.noreply.github.com"]
 
     #filter out domains
@@ -62,22 +64,27 @@ for dev_a, dev_b in combinations(DEVS, 2):
     if(prefix_b in filteredPrefixes):
         prefix_b, domain_b = domain_b, prefix_b
 
+    #Set similarity threshold 
+    t=0.9
+
     # Conditions of Bird heuristic
     c1 = c2 = c31 = c32 = c4 = c5 = c6 = c7 = False
     #empty names were considered the same, so check if they are empty
     if(name_a != "" and name_b != "" and prefix_a != "" and prefix_b != ""):
-        c1 = sim(name_a, name_b)
-        c2 = sim(prefix_b, prefix_a)
-        c31 = sim(first_a, first_b)
-        c32 = sim(last_a, last_b)
+        c2 = f.check_c2(prefix_a, prefix_b, first_a, first_b, last_a, last_b, t)
+        #Both names should be at least 2 characters long to consider these conditions
+        if(len(first_a) > 2 and len(first_b) > 2 and len(last_a) > 2 and len(last_b) > 2):
+            c1 = sim(name_a, name_b)
+            c31 = sim(first_a, first_b)
+            c32 = sim(last_a, last_b)
     
     #Set similarity threshold 
     t=0.9
 
-    c4 = f.containsNameAndInitial(prefix_b, i_first_a, first_a, last_a, t) 
-    c5 = f.containsNameAndInitial(prefix_b, i_last_a, last_a, first_a, t)
-    c6 = f.containsNameAndInitial(prefix_a, i_first_b, first_a, last_b, t)
-    c7 = f.containsNameAndInitial(prefix_a, i_last_b, last_b, first_b, t)
+    c4 = f.contains_name_and_initial(prefix_b, i_first_a, first_a, last_a, t) 
+    c5 = f.contains_name_and_initial(prefix_b, i_last_a, last_a, first_a, t)
+    c6 = f.contains_name_and_initial(prefix_a, i_first_b, first_a, last_b, t)
+    c7 = f.contains_name_and_initial(prefix_a, i_last_b, last_b, first_b, t)
 
     # Save similarity data for each conditions. Original names are saved
     SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
@@ -104,4 +111,4 @@ df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].any(axi
 # Omit "check" columns, save to csv
 df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]]
-df.to_csv(os.path.join("project1devs", f"devs_similarity_t={t}.csv"), index=False, header=True)
+df.to_csv(os.path.join("project1devs", f"devs_similarity_t_bootsstrap={t}.csv"), index=False, header=True)

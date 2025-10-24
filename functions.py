@@ -2,22 +2,19 @@ from Levenshtein import ratio as sim
 import string
 import unicodedata
 
-def containsNameAndInitial(prefix, initial1, name1, name2, treshold=1):
+def contains_name_and_initial(prefix, initial1, name1, name2, treshold=1):
     """
     Returns true, if prefix contains name2 and initial1 after removing name2 from it and if similarity between name1
     and prefix then is greater than treshold.
     """
     condition = False
-    if initial1 != "" and len(name2) > 1:
-        if name2 in prefix:
-            prefix = prefix.replace(name2, "")
-            if prefix != "":
-                if initial1 == prefix[0]:
-                    condition = True
+    if initial1 != "" and len(name2) > 1 and name2 in prefix:
+        prefix = prefix.replace(name2, "")
+        if prefix != "" and initial1 == prefix[0]:
+            condition = True
     #also check if the other name is similar enough, if it is more than just the initial
-    if len(name1) > 1:
-        if sim(name1, prefix) < treshold:
-            condition = False
+    if len(name1) > 1 and sim(name1, prefix) < treshold:
+        condition = False
     return condition
 
 # Function for pre-processing each name,email
@@ -58,12 +55,24 @@ def process(dev):
 
     # Determine email prefix and domain
     email: str = dev[1]
-    if(email != ""):
+
+    try:
         prefix = email.split("@")[0]
         domain = email.split("@")[1]
-    else:
-        prefix = ""
+    except(IndexError):
+        prefix = email
         domain = ""
-    
+
 
     return name, first, last, i_first, i_last, email, prefix, domain
+
+#function for c2
+
+def check_c2(prefix_a, prefix_b, first_a, first_b, last_a, last_b, treshold=1):
+    condition = False
+    if sim(prefix_b, prefix_a) > treshold:
+        condition = True
+        if sim(prefix_a, first_a) > treshold or sim(prefix_b, first_b) > treshold :
+            condition = sim(last_a, last_b) > treshold
+        
+    return condition
