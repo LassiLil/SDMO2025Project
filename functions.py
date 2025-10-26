@@ -67,12 +67,14 @@ def process(dev):
     return name, first, last, i_first, i_last, email, prefix, domain
 
 #function for c2
-
 def check_c2(prefix_a, prefix_b, first_a, first_b, last_a, last_b, treshold=1):
+    ''' 
+    If prefixes are similar, returns True, unless prefix is similar to first name. In that case, also similarity between last names are required.
+    '''
     condition = False
-    if sim(prefix_b, prefix_a) > treshold:
+    if sim(prefix_b, prefix_a) >= treshold:
         condition = True
-        if sim(prefix_a, first_a) > treshold or sim(prefix_b, first_b) > treshold :
-            condition = sim(last_a, last_b) > treshold
+        if sim(prefix_a, first_a) >= treshold or sim(prefix_b, first_b) >= treshold :
+            condition = sim(last_a, last_b) >= treshold
         
     return condition

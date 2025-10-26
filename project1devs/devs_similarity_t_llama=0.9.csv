@@ -1,91 +1,75 @@
 name_1,email_1,name_2,email_2,c1,c2,c3.1,c3.2,c4,c5,c6,c7
-Alexandre Amado de Castro,aamado@enova.com,Alexandre Amado de Castro,alexandre.castro@outlook.com,1.0,0.36363636363636365,1.0,1.0,False,False,False,False
-Andre Wisplinghoff,andre.wisplinghoff@commerzbank.com,Andre Wisplinghoff,andre.wisplinghoff@gmail.com,1.0,1.0,1.0,1.0,True,False,True,False
-Baasit Sharief,baasitsharief@gmail.com,Baasit Sharief,bsharief@cloudera.com,1.0,0.7619047619047619,1.0,1.0,False,False,True,True
-Baur,baur.krykpayev@gmail.com,Baur,baur@zenguard.ai,1.0,0.4444444444444444,1.0,1.0,False,False,False,False
-Botong Zhu,945263008@qq.com,Botong Zhu,zbtsebuaa@outlook.com,1.0,0.0,1.0,1.0,False,False,False,False
-Brandon Bennett,brandon@brbe.me,Brandon McConnell,brandon@dreamthinkbuild.com,0.6875,1.0,1.0,0.375,False,False,False,False
-Cheese,qizhi.wang@pingcap.com,Cheese,seojeee@gmail.com,1.0,0.0,1.0,1.0,False,False,False,False
-Chetan Choudhary,chetan.choudhary@calsoftinc.com,Chetan Choudhary,chetanchoudhary975@gmail.com,1.0,0.8823529411764706,1.0,1.0,False,False,True,False
-Chris Gross,chris@obli.ai,Chris Paul,chris@tryrisotto.com,0.5714285714285714,1.0,1.0,0.0,False,False,False,False
-Chris Xiao,c.cx@foxmail.com,Chris Xiao,xiyouxiaochun@163.com,1.0,0.11764705882352944,1.0,1.0,False,False,False,False
-Cyrus Leung,cyrus.tl.leung@gmail.com,Cyrus Leung,tlleungac@connect.ust.hk,1.0,0.6086956521739131,1.0,1.0,False,False,False,False
-Daniel Bustamante Ospina,daniel@runllama.ai,Daniel Bustamante Ospina,dbustamante69@gmail.com,1.0,0.42105263157894735,1.0,1.0,False,False,False,False
-Daniel Bustamante Ospina,daniel@runllama.ai,Daniel Bustamante Ospina,dbustamante70@gmail.com,1.0,0.42105263157894735,1.0,1.0,False,False,False,False
-Daniel Bustamante Ospina,dbustamante69@gmail.com,Daniel Bustamante Ospina,dbustamante70@gmail.com,1.0,0.8461538461538461,1.0,1.0,False,False,False,False
-Daniel Fleischer,danflscr@gmail.com,Daniel Fleischer,daniel.fleischer@intel.com,1.0,0.6666666666666667,1.0,1.0,True,False,False,False
-Dave Wang,wangdave@google.com,Di Wang,jiankong3@gmail.com,0.75,0.3529411764705882,0.33333333333333337,1.0,False,False,True,False
-Dave Wang,wangdave@google.com,Dong Wang,dong@kumo.ai,0.6666666666666667,0.33333333333333337,0.25,1.0,False,False,True,False
-Dheeraj Agrawal,dheeraj.agrawal@spotdraft.com,Dheeraj Agrawal,dheeraja486@gmail.com,1.0,0.6153846153846154,1.0,1.0,False,False,True,False
-Diego Colombo,colombod@me.com,Diego Colombo,dicolomb@microsoft.com,1.0,0.75,1.0,1.0,False,False,False,False
-Dilip Parasu,dilip.parasu@gmail.com,Dilip Parasu,supersecurehuman@gmail.com,1.0,0.2857142857142857,1.0,1.0,False,False,True,False
-Dmitrii Cherkasov,dmitrii.cherkasov@oracle.com,Dmitrii Cherkasov,info.dmitry.cherkasov@gmail.com,1.0,0.7894736842105263,1.0,1.0,False,False,True,False
-Facundo Santiago,fasantia@microsoft.com,Facundo Santiago,santiagof@outlook.com,1.0,0.7058823529411764,1.0,1.0,False,False,False,False
-Fernando Silva,fernando457829@gmail.com,Fernando Silva,fernandonsilva16@gmail.com,1.0,0.5333333333333333,1.0,1.0,False,False,False,False
-Francisco Aguilera,Falven2000@Hotmail.com,Francisco Aguilera,fraguile@microsoft.com,1.0,0.33333333333333337,1.0,1.0,False,False,False,False
-Guodong,songoodong@163.com,guodong,songoodong@163.com,1.0,1.0,1.0,1.0,False,False,False,False
-Henry Tu,henry.tu@cerebras.net,Henry Tu,henry@henrytu.me,1.0,0.7692307692307692,1.0,1.0,False,False,True,False
-Hiroki Nakayama,hiroki.nakayama.py@gmail.com,Hiroki Nakayama,light.tree.1.13@gmail.com,1.0,0.24242424242424243,1.0,1.0,False,False,False,False
-Hollow Man,hollowman@opensuse.org,Hollow Man,songlin.jiang@csc.fi,1.0,0.36363636363636365,1.0,1.0,False,False,True,True
-Hollow Man,hollowman@opensuse.org,ℍ𝕠𝕝𝕝𝕠𝕨 𝕄𝕒𝕟,hollowman@opensuse.org,1.0,1.0,1.0,1.0,True,True,True,True
-Hollow Man,songlin.jiang@csc.fi,ℍ𝕠𝕝𝕝𝕠𝕨 𝕄𝕒𝕟,hollowman@opensuse.org,1.0,0.36363636363636365,1.0,1.0,True,True,False,False
-Jael Gu,mengjia.gu@zilliz.com,Jael Gu,mjaelgu@hotmail.com,1.0,0.5882352941176471,1.0,1.0,False,False,False,False
-Jared Van Bortel,cebtenzzre@gmail.com,Jared Van Bortel,jared@nomic.ai,1.0,0.2666666666666667,1.0,1.0,False,False,False,False
-Jeff Browning,jeff@jkbrowning.com,Jeff Huber,jeff@trychroma.com,0.6086956521739131,1.0,1.0,0.3076923076923077,False,False,False,False
-Jeff Browning,jeff@jkbrowning.com,Jeffery Utter,jeff@jeffutter.com,0.46153846153846156,1.0,0.7272727272727273,0.15384615384615385,False,False,False,False
-Jeff Huber,jeff@trychroma.com,Jeff Huber,jeffchuber@gmail.com,1.0,0.5714285714285714,1.0,1.0,False,False,False,False
-Jeff Huber,jeff@trychroma.com,Jeffery Utter,jeff@jeffutter.com,0.6956521739130435,1.0,0.7272727272727273,0.6,False,False,False,False
-Jen Person,jmansfield@tenstorrent.com,Jen Person,personjeh@gmail.com,1.0,0.21052631578947367,1.0,1.0,False,False,False,False
-Jerry Liu,jerry@robustintelligence.com,Jerry Liu,jerryjliu98@gmail.com,1.0,0.625,1.0,1.0,False,False,False,False
-Joan Fontanals,jfontanalsmartinez@gmail.com,Joan Fontanals,joan.fontanals.martinez@jina.ai,1.0,0.8780487804878049,1.0,1.0,False,False,False,False
-Julien Bouquillon,contact@revolunet.com,Julien Bouquillon,julien.bouquillon@beta.gouv.fr,1.0,0.2666666666666667,1.0,1.0,True,False,False,False
-Julien Bouquillon,contact@revolunet.com,Julien Bouquillon,julien.bouquillon@sg.social.gouv.fr,1.0,0.2666666666666667,1.0,1.0,True,False,False,False
-Julien Bouquillon,julien.bouquillon@beta.gouv.fr,Julien Bouquillon,julien.bouquillon@sg.social.gouv.fr,1.0,1.0,1.0,1.0,True,False,True,False
-Kamil Murat Yılmaz,kamilmuratyilmaz@gmail.com,Kamil Murat Yılmaz,murat@p-ux.net,1.0,0.47619047619047616,1.0,1.0,False,False,False,False
-Karol Lassak,ingwar@ingwar.eu.org,Karol Lassak,ingwar@kentik.com,1.0,1.0,1.0,1.0,False,False,False,False
-Logan,logan.markewich@live.com,Logan,logan.markewich@usask.ca,1.0,1.0,1.0,1.0,False,False,False,False
-Logan,logan.markewich@live.com,Logan Markewich,logan.markewich@live.com,0.5,1.0,1.0,0.0,False,False,True,False
-Logan,logan.markewich@usask.ca,Logan Markewich,logan.markewich@live.com,0.5,1.0,1.0,0.0,False,False,True,False
-Marcus Schiesser,mail@marcusschiesser.de,Marcus Schiesser,marcus.schiesser@googlemail.com,1.0,0.8823529411764706,1.0,1.0,True,False,False,False
-Martin O'Hanlon,martin.ohanlon@neo4j.com,Martin O'Hanlon,martin@ohanlonweb.com,1.0,0.6,1.0,1.0,False,False,True,False
-Matvey Arye,cevian@gmail.com,Matvey Arye,mat@timescale.com,1.0,0.2222222222222222,1.0,1.0,False,False,False,False
-Max Jakob,max.jakob@elastic.co,Max Jakob,max.jakob@gmail.com,1.0,1.0,1.0,1.0,False,False,False,False
-Michael Chen,tymichaelchen@gmail.com,Michael Chin,mchin188@yahoo.com,0.9166666666666666,0.38095238095238093,1.0,0.75,False,False,False,False
-Nguyen Trung Duc (john),trungduc1992@gmail.com,trducng,trungduc1992@gmail.com,0.4285714285714286,1.0,0.3076923076923077,0.0,False,False,False,False
-Nicholas Albion,nalbion@yahoo.com,Nicholas Albion,nicholas.albion@nullify.cloud,1.0,0.6363636363636364,1.0,1.0,True,False,False,False
-Noah Stapp,noah.stapp@mongodb.com,Noah Stapp,noah@noahstapp.com,1.0,0.5714285714285714,1.0,1.0,False,False,False,False
-Ofer Mendelevitch,ofer@vectara.com,Ofer Mendelevitch,ofermend@gmail.com,1.0,0.6666666666666667,1.0,1.0,False,False,False,False
-Oleg,operagxsasha@gmail.com,operagxsasha,operagxsasha@gmail.com,0.375,1.0,0.375,1.0,False,False,False,False
-Ondra Zahradnik,ondra.zahradnik@gmail.com,Ondra Zahradnik,ondra@upheal.io,1.0,0.5,1.0,1.0,False,False,True,False
-Pan Xia,paxia@ucsd.edu,Pan Xiao,xiaopan@outlook.com,0.9333333333333333,0.5,1.0,0.8571428571428572,False,False,False,False
-Pavan Ramkumar,pavan.ramkumar@gmail.com,Pavan Ramkumar,pavan.ramkumar@system1.bio,1.0,1.0,1.0,1.0,True,False,True,False
-Pierre-Loic Doulcet,hexapode@gmail.com,Pierre-Loic Doulcet,pierre@pld.io,1.0,0.2857142857142857,1.0,1.0,False,False,False,False
-Rajesh Thallam,rajesh.thallam@ischool.berkeley.edu,Rajesh Thallam,rthallam@google.com,1.0,0.7272727272727273,1.0,1.0,False,False,True,False
-Rasmus Antons,mail@rasmusantons.de,Rasmus Antons,rasmus.antons@iwm.fraunhofer.de,1.0,0.8571428571428572,1.0,1.0,True,False,False,False
-Ritik Pandey,panditritik260@gmail.com,ritikpandey33,panditritik260@gmail.com,0.88,1.0,0.5555555555555556,0.0,False,False,False,False
-Robert Shelton,robert.b.shelton.42@gmail.com,Robert Shelton,robert.shelton@redis.com,1.0,0.8484848484848485,1.0,1.0,True,False,False,False
-Rosie Wood,rosie.wood@gmail.com,Rosie Wood,rwood@turing.ac.uk,1.0,0.6666666666666667,1.0,1.0,False,False,True,False
-Rushil Sheth,rushil@getboon.ai,Rushil Sheth,rushil@pathlight.com,1.0,1.0,1.0,1.0,False,False,False,False
-Sam Partee,Partees21@gmail.com,Sam Partee,sam.partee@redis.com,1.0,0.5263157894736843,1.0,1.0,False,False,False,False
-Sammy Roberts,omg.yeah.wai@hotmail.com,Sammy Roberts,sammy@usablemachines.com,1.0,0.23529411764705888,1.0,1.0,False,False,False,False
-Saverio Proto,saverioproto@microsoft.com,Saverio Proto,zioproto@gmail.com,1.0,0.7,1.0,1.0,False,False,True,True
-Sean Smith,sean.smith@contextual.ai,Sean Smith,seanwssmith@gmail.com,1.0,0.8571428571428572,1.0,1.0,False,False,False,False
-Shengsheng Huang,shannie.huang@gmail.com,Shengsheng Huang,shengsheng.huang@intel.com,1.0,0.6896551724137931,1.0,1.0,True,False,False,False
-Shivani Modi,shivanimodi16@gmail.com,shivanimodi16,shivanimodi16@gmail.com,0.88,1.0,0.7,0.0,False,False,False,False
-Smyja,akposlive59@gmail.com,smyja,akposlive59@gmail.com,1.0,1.0,1.0,1.0,False,False,False,False
-Sohan,sohan@pipeshift.ai,Sohan,sohan@pipeshift.com,1.0,1.0,1.0,1.0,False,False,False,False
-Soumili Nandi,soumilin@nvidia.com,Soumili Nandi,soumilinandi99@gmail.com,1.0,0.7272727272727273,1.0,1.0,False,False,False,False
-Thomas Waldecker,thomas.waldecker@gmail.com,Thomas Waldecker,thomas.waldecker@googlemail.com,1.0,1.0,1.0,1.0,True,False,True,False
-Tung Nguyen,tung.nguyen@exxonmobil.com,Tung Nguyen,tungnq@gmail.com,1.0,0.5882352941176471,1.0,1.0,False,False,False,False
-Vrushab,vrushab.ghodke@gmail.com,Vrushab,vrushab@oneassure.in,1.0,0.6666666666666667,1.0,1.0,False,False,False,False
-William Easton,bill.easton@elastic.co,William Easton,williamseaston@gmail.com,1.0,0.72,1.0,1.0,True,False,False,False
-William Horton,wdt.horton@gmail.com,William Horton,william.horton@includedhealth.com,1.0,0.6666666666666667,1.0,1.0,True,False,False,False
-Xu Wu,wuxu92@outlook.com,Xu Wu,xuwu1@microsoft.com,1.0,0.36363636363636365,1.0,1.0,False,False,False,False
-Yi Ding,yi.s.ding@gmail.com,yisding,yi.s.ding@gmail.com,0.8571428571428572,1.0,0.4444444444444444,0.0,False,False,False,False
-Yuri-0,gijune2003@naver.com,Yuri-0,yuri@yurinet.blog,1.0,0.1428571428571429,1.0,1.0,False,False,False,False
-Zhaoyang Liu,biexiaowodai@hotmail.com,Zhaoyang Liu,jingmu.lzy@alibaba-inc.com,1.0,0.09090909090909094,1.0,1.0,False,False,False,False
-codingjaguar,codingjaguar@gmail.com,codingjaguar,jiang.chen@zilliz.com,1.0,0.2727272727272727,1.0,1.0,False,False,False,False
-fatmelon,708842811@qq.com,yangqiao,708842811@qq.com,0.25,1.0,0.25,1.0,False,False,False,False
-wxywb,285088914@qq.com,wxywb,xy.wang@zilliz.com,1.0,0.0,1.0,1.0,False,False,False,False
-刘 方瑞,fangrui.liu@outlook.com,刘 方瑞,fangruil@moqi.ai,1.0,0.8421052631578947,1.0,1.0,False,False,False,False
-盐粒 Yanli,beautyyuyanli@gmail.com,盐粒 Yanli,yanli.yu@vesoft.com,1.0,0.47619047619047616,1.0,1.0,False,False,False,False
+Alexandre Amado de Castro,aamado@enova.com,Alexandre Amado de Castro,alexandre.castro@outlook.com,1.0,False,1.0,1.0,False,False,False,False
+Andre Wisplinghoff,andre.wisplinghoff@commerzbank.com,Andre Wisplinghoff,andre.wisplinghoff@gmail.com,1.0,True,1.0,1.0,True,False,True,False
+Baasit Sharief,baasitsharief@gmail.com,Baasit Sharief,bsharief@cloudera.com,1.0,False,1.0,1.0,False,False,True,True
+Botong Zhu,945263008@qq.com,Botong Zhu,zbtsebuaa@outlook.com,1.0,False,1.0,1.0,False,False,False,False
+Chetan Choudhary,chetan.choudhary@calsoftinc.com,Chetan Choudhary,chetanchoudhary975@gmail.com,1.0,False,1.0,1.0,False,False,True,False
+Chris Xiao,c.cx@foxmail.com,Chris Xiao,xiyouxiaochun@163.com,1.0,False,1.0,1.0,False,False,False,False
+Cyrus Leung,cyrus.tl.leung@gmail.com,Cyrus Leung,tlleungac@connect.ust.hk,1.0,False,1.0,1.0,False,False,False,False
+Daniel Bustamante Ospina,daniel@runllama.ai,Daniel Bustamante Ospina,dbustamante69@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Daniel Bustamante Ospina,daniel@runllama.ai,Daniel Bustamante Ospina,dbustamante70@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Daniel Bustamante Ospina,dbustamante69@gmail.com,Daniel Bustamante Ospina,dbustamante70@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Daniel Fleischer,danflscr@gmail.com,Daniel Fleischer,daniel.fleischer@intel.com,1.0,False,1.0,1.0,True,False,False,False
+Dave Wang,wangdave@google.com,Di Wang,jiankong3@gmail.com,False,False,False,False,False,False,True,False
+Dave Wang,wangdave@google.com,Dong Wang,dong@kumo.ai,0.6666666666666667,False,0.25,1.0,False,False,True,False
+Dheeraj Agrawal,dheeraj.agrawal@spotdraft.com,Dheeraj Agrawal,dheeraja486@gmail.com,1.0,False,1.0,1.0,False,False,True,False
+Diego Colombo,colombod@me.com,Diego Colombo,dicolomb@microsoft.com,1.0,False,1.0,1.0,False,False,False,False
+Dilip Parasu,dilip.parasu@gmail.com,Dilip Parasu,supersecurehuman@gmail.com,1.0,False,1.0,1.0,False,False,True,False
+Dmitrii Cherkasov,dmitrii.cherkasov@oracle.com,Dmitrii Cherkasov,info.dmitry.cherkasov@gmail.com,1.0,False,1.0,1.0,False,False,True,False
+Facundo Santiago,fasantia@microsoft.com,Facundo Santiago,santiagof@outlook.com,1.0,False,1.0,1.0,False,False,False,False
+Fernando Silva,fernando457829@gmail.com,Fernando Silva,fernandonsilva16@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Francisco Aguilera,Falven2000@Hotmail.com,Francisco Aguilera,fraguile@microsoft.com,1.0,False,1.0,1.0,False,False,False,False
+Guodong,songoodong@163.com,guodong,songoodong@163.com,False,True,False,False,False,False,False,False
+Henry Tu,henry.tu@cerebras.net,Henry Tu,henry@henrytu.me,False,False,False,False,False,False,True,False
+Hiroki Nakayama,hiroki.nakayama.py@gmail.com,Hiroki Nakayama,light.tree.1.13@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Hollow Man,hollowman@opensuse.org,Hollow Man,songlin.jiang@csc.fi,1.0,False,1.0,1.0,False,False,True,True
+Hollow Man,hollowman@opensuse.org,ℍ𝕠𝕝𝕝𝕠𝕨 𝕄𝕒𝕟,hollowman@opensuse.org,1.0,True,1.0,1.0,True,True,True,True
+Hollow Man,songlin.jiang@csc.fi,ℍ𝕠𝕝𝕝𝕠𝕨 𝕄𝕒𝕟,hollowman@opensuse.org,1.0,False,1.0,1.0,True,True,False,False
+Jared Van Bortel,cebtenzzre@gmail.com,Jared Van Bortel,jared@nomic.ai,1.0,False,1.0,1.0,False,False,False,False
+Jeff Huber,jeff@trychroma.com,Jeff Huber,jeffchuber@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Jen Person,jmansfield@tenstorrent.com,Jen Person,personjeh@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Jerry Liu,jerry@robustintelligence.com,Jerry Liu,jerryjliu98@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Joan Fontanals,jfontanalsmartinez@gmail.com,Joan Fontanals,joan.fontanals.martinez@jina.ai,1.0,False,1.0,1.0,False,False,False,False
+Julien Bouquillon,contact@revolunet.com,Julien Bouquillon,julien.bouquillon@beta.gouv.fr,1.0,False,1.0,1.0,True,False,False,False
+Julien Bouquillon,contact@revolunet.com,Julien Bouquillon,julien.bouquillon@sg.social.gouv.fr,1.0,False,1.0,1.0,True,False,False,False
+Julien Bouquillon,julien.bouquillon@beta.gouv.fr,Julien Bouquillon,julien.bouquillon@sg.social.gouv.fr,1.0,True,1.0,1.0,True,False,True,False
+Kamil Murat Yılmaz,kamilmuratyilmaz@gmail.com,Kamil Murat Yılmaz,murat@p-ux.net,1.0,False,1.0,1.0,False,False,False,False
+Karol Lassak,ingwar@ingwar.eu.org,Karol Lassak,ingwar@kentik.com,1.0,True,1.0,1.0,False,False,False,False
+Logan,logan.markewich@live.com,Logan,logan.markewich@usask.ca,False,True,False,False,False,False,False,False
+Logan,logan.markewich@live.com,Logan Markewich,logan.markewich@live.com,False,True,False,False,False,False,True,False
+Logan,logan.markewich@usask.ca,Logan Markewich,logan.markewich@live.com,False,True,False,False,False,False,True,False
+Marcus Schiesser,mail@marcusschiesser.de,Marcus Schiesser,marcus.schiesser@googlemail.com,1.0,False,1.0,1.0,True,False,False,False
+Martin O'Hanlon,martin.ohanlon@neo4j.com,Martin O'Hanlon,martin@ohanlonweb.com,1.0,False,1.0,1.0,False,False,True,False
+Matvey Arye,cevian@gmail.com,Matvey Arye,mat@timescale.com,1.0,False,1.0,1.0,False,False,False,False
+Max Jakob,max.jakob@elastic.co,Max Jakob,max.jakob@gmail.com,1.0,True,1.0,1.0,False,False,False,False
+Michael Chen,tymichaelchen@gmail.com,Michael Chin,mchin188@yahoo.com,0.9166666666666666,False,1.0,0.75,False,False,False,False
+Nguyen Trung Duc (john),trungduc1992@gmail.com,trducng,trungduc1992@gmail.com,False,True,False,False,False,False,False,False
+Nicholas Albion,nalbion@yahoo.com,Nicholas Albion,nicholas.albion@nullify.cloud,1.0,False,1.0,1.0,True,False,False,False
+Noah Stapp,noah.stapp@mongodb.com,Noah Stapp,noah@noahstapp.com,1.0,False,1.0,1.0,False,False,False,False
+Ofer Mendelevitch,ofer@vectara.com,Ofer Mendelevitch,ofermend@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Oleg,operagxsasha@gmail.com,operagxsasha,operagxsasha@gmail.com,False,True,False,False,False,False,False,False
+Ondra Zahradnik,ondra.zahradnik@gmail.com,Ondra Zahradnik,ondra@upheal.io,1.0,False,1.0,1.0,False,False,True,False
+Pan Xia,paxia@ucsd.edu,Pan Xiao,xiaopan@outlook.com,0.9333333333333333,False,1.0,0.8571428571428572,False,False,False,False
+Pavan Ramkumar,pavan.ramkumar@gmail.com,Pavan Ramkumar,pavan.ramkumar@system1.bio,1.0,True,1.0,1.0,True,False,True,False
+Pierre-Loic Doulcet,hexapode@gmail.com,Pierre-Loic Doulcet,pierre@pld.io,1.0,False,1.0,1.0,False,False,False,False
+Rajesh Thallam,rajesh.thallam@ischool.berkeley.edu,Rajesh Thallam,rthallam@google.com,1.0,False,1.0,1.0,False,False,True,False
+Rasmus Antons,mail@rasmusantons.de,Rasmus Antons,rasmus.antons@iwm.fraunhofer.de,1.0,False,1.0,1.0,True,False,False,False
+Ritik Pandey,panditritik260@gmail.com,ritikpandey33,panditritik260@gmail.com,False,True,False,False,False,False,False,False
+Robert Shelton,robert.b.shelton.42@gmail.com,Robert Shelton,robert.shelton@redis.com,1.0,False,1.0,1.0,True,False,False,False
+Rosie Wood,rosie.wood@gmail.com,Rosie Wood,rwood@turing.ac.uk,1.0,False,1.0,1.0,False,False,True,False
+Rushil Sheth,rushil@getboon.ai,Rushil Sheth,rushil@pathlight.com,1.0,True,1.0,1.0,False,False,False,False
+Sam Partee,Partees21@gmail.com,Sam Partee,sam.partee@redis.com,1.0,False,1.0,1.0,False,False,False,False
+Sammy Roberts,omg.yeah.wai@hotmail.com,Sammy Roberts,sammy@usablemachines.com,1.0,False,1.0,1.0,False,False,False,False
+Saverio Proto,saverioproto@microsoft.com,Saverio Proto,zioproto@gmail.com,1.0,False,1.0,1.0,False,False,True,True
+Sean Smith,sean.smith@contextual.ai,Sean Smith,seanwssmith@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Shengsheng Huang,shannie.huang@gmail.com,Shengsheng Huang,shengsheng.huang@intel.com,1.0,False,1.0,1.0,True,False,False,False
+Smyja,akposlive59@gmail.com,smyja,akposlive59@gmail.com,False,True,False,False,False,False,False,False
+Sohan,sohan@pipeshift.ai,Sohan,sohan@pipeshift.com,False,True,False,False,False,False,False,False
+Soumili Nandi,soumilin@nvidia.com,Soumili Nandi,soumilinandi99@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+Thomas Waldecker,thomas.waldecker@gmail.com,Thomas Waldecker,thomas.waldecker@googlemail.com,1.0,True,1.0,1.0,True,False,True,False
+Tung Nguyen,tung.nguyen@exxonmobil.com,Tung Nguyen,tungnq@gmail.com,1.0,False,1.0,1.0,False,False,False,False
+William Easton,bill.easton@elastic.co,William Easton,williamseaston@gmail.com,1.0,False,1.0,1.0,True,False,False,False
+William Horton,wdt.horton@gmail.com,William Horton,william.horton@includedhealth.com,1.0,False,1.0,1.0,True,False,False,False
+Yi Ding,yi.s.ding@gmail.com,yisding,yi.s.ding@gmail.com,False,True,False,False,False,False,False,False
+Zhaoyang Liu,biexiaowodai@hotmail.com,Zhaoyang Liu,jingmu.lzy@alibaba-inc.com,1.0,False,1.0,1.0,False,False,False,False
+fatmelon,708842811@qq.com,yangqiao,708842811@qq.com,False,True,False,False,False,False,False,False

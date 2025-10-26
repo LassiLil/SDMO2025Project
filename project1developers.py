@@ -16,7 +16,8 @@ from pydriller import Repository
 DEVS = set()
 #for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\Python").traverse_commits(): #this would only work on my pc
 #for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\llama_index").traverse_commits():
-for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\bootstrap").traverse_commits():
+#for commit in Repository("C:\\Opiskelu\\tkt\\SDMO\\projekti\\koodi\\bootstrap").traverse_commits():
+for commit in Repository("https://github.com/TheAlgorithms/Python").traverse_commits():
      DEVS.add((commit.author.name, commit.author.email))
      DEVS.add((commit.committer.name, commit.committer.email))
 
@@ -111,4 +112,4 @@ df = df[df[["c1_check", "c2_check", "c3_check", "c4", "c5", "c6", "c7"]].any(axi
 # Omit "check" columns, save to csv
 df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]]
-df.to_csv(os.path.join("project1devs", f"devs_similarity_t_bootsstrap={t}.csv"), index=False, header=True)
+df.to_csv(os.path.join("project1devs", f"devs_similarity_t={t}.csv"), index=False, header=True)

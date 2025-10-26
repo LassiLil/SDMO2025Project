@@ -35,20 +35,23 @@ class Test_process(unittest.TestCase):
     def testEmptyPrefix(self):
         self.assertEqual(process(("first last", "@b")), ("first last", "first", "last", "f", "l", "@b", "", "b"))
 
-#Chris Sternal-Johnson,chris@sternal-johnson.com,Chris Wiederspan,chris@wiederspan.com
-    class test_check_c2(unittest.TestCase):
+class test_check_c2(unittest.TestCase):
 
-        def testCorrect(self):
-            self.assertTrue(check_c2("prefix", "prefix", "first", "first", "last", "last"))
+    def testCorrect(self):
+        self.assertTrue(check_c2("prefix", "prefix", "first", "first", "last", "last"))
 
-        def testWrongLastName(self):
-            self.assertFalse(check_c2("prefix", "prefix", "first", "first", "last", "different"))
+    def testWrongLastName(self):
+        self.assertTrue(check_c2("prefix", "prefix", "first", "first", "last", "different"))
 
-        def testWrongFirstName(self):
-            self.assertFalse(check_c2("prefix", "prefix", "first", "different", "last", "last"))
+    def testWrongFirstName(self):
+        self.assertTrue(check_c2("prefix", "prefix", "first", "different", "last", "last"))
 
-        def testWrongPrefixName(self):
-            self.assertFalse(check_c2("prefix", "different", "first", "first", "last", "last"))
+    def testWrongPrefixName(self):
+        self.assertFalse(check_c2("prefix", "different", "first", "first", "last", "last"))
+
+    def testWrongLastNamePrefixFirstName(self):
+        self.assertFalse(check_c2("first", "first", "first", "first", "last", "different"))
+
 
 if __name__ == '__main__':
     unittest.main()
