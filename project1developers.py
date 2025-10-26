@@ -36,7 +36,7 @@ df = compute_similarity(DEVS)
 t = 0.9
 
 
-# Apply threshold checks against the 
+# Apply threshold checks against c1-c3
 print("Threshold:", t)
 df["c1_check"] = df["c1"] >= t
 df["c2_check"] = df["c2"] >= t
