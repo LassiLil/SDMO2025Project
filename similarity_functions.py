@@ -67,21 +67,15 @@ def compute_similarity(devs,t=0.9):
         name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b = process(dev_b)
 
         # Conditions of Bird heuristic
-        c1 = sim(name_a, name_b)             # full name similarity
-        c2 = sim(prefix_a, prefix_b)         # email prefix similarity
-        c31 = sim(first_a, first_b)          # first name similarity
-        c32 = sim(last_a, last_b)            # last name similarity 
-        c4 = c5 = c6 = c7 = False
-
-        # Since lastname and initials can be empty, perform appropriate checks
-        if i_first_a != "" and last_a != "":
-            c4 = i_first_a in prefix_b and last_a in prefix_b
-        if i_last_a != "":
-            c5 = i_last_a in prefix_b and first_a in prefix_b
-        if i_first_b != "" and last_b != "":
-            c6 = i_first_b in prefix_a and last_b in prefix_a
-        if i_last_b != "":
-            c7 = i_last_b in prefix_a and first_b in prefix_a
+        c1 = sim(name_a, name_b)             
+        c2 = sim(prefix_a, prefix_b)         
+        c31 = sim(first_a, first_b)          
+        c32 = sim(last_a, last_b)            
+        
+        c4 = i_first_a and last_a and i_first_a in prefix_b and last_a in prefix_b
+        c5 = i_last_a and first_a and i_last_a in prefix_b and first_a in prefix_b
+        c6 = i_first_b and last_b and i_first_b in prefix_a and last_b in prefix_a
+        c7 = i_last_b and first_b and i_last_b in prefix_a and first_b in prefix_a
 
         # Determine if prefixes are common
         prefix_a_common = prefix_a in COMMON_PREFIXES
@@ -92,17 +86,15 @@ def compute_similarity(devs,t=0.9):
         strong_name_match = (c1 >= t) or (c31 >= t and c32 >= t)
 
         # Only allow email-based or initial-based rules if prefixes are not common
-        if not (prefix_a_common or prefix_b_common):
-            email_based_match = (
-                c2 >= t or c4 or c5 or c6 or c7
-            )
-        else:
-            email_based_match = False
+        email_based_match = (
+            not (prefix_a_common or prefix_b_common)
+            and (c2 >= t or c4 or c5 or c6 or c7)
+        )
 
         # Check emails are different, strong name match and optionally valid initial/email-based match
         if  email_a != email_b and strong_name_match and (strong_name_match or email_based_match):
             # Save similarity data for each conditions. Original names are saved
-            SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7])
+            SIMILARITY.append([dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, bool(c4), bool(c5), bool(c6), bool(c7)])
 
 
     # Save data on all pairs
