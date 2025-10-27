@@ -48,7 +48,7 @@ class TestComputeSimilarity(unittest.TestCase):
     def test_identical_emails(self):
         devs = [
             (DEVELOPER_NAME, DEVELOPER_EMAIL),
-            (DEVELOPER_NAME, DEVELOPER_EMAIL)  # identical email
+            (DEVELOPER_NAME, DEVELOPER_EMAIL)  
         ]
         df = compute_similarity(devs)
         self.assertTrue(df.empty)
