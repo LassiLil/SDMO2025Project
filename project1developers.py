@@ -5,46 +5,50 @@ from Levenshtein import ratio as sim
 import os
 import functions as fun
 from pydriller import Repository
+import traceback
 
-DEVS = set()
-for commit in Repository("https://github.com/run-llama/llama_index.git").traverse_commits():
-    DEVS.add((commit.author.name, commit.author.email))
-    DEVS.add((commit.committer.name, commit.committer.email))
+try:
 
-DEVS = sorted(DEVS)
-with open(os.path.join("project1devs", "devs.csv"), 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile, delimiter=',', quotechar='"')
-    writer.writerow(["name", "email"])
-    writer.writerows(DEVS)
+    DEVS = set()
+    for commit in Repository("https://github.com/run-llama/llama_index.git").traverse_commits():
+        DEVS.add((commit.author.name, commit.author.email))
+        DEVS.add((commit.committer.name, commit.committer.email))
 
-
-DEVS = []
-with open(os.path.join("project1devs", "devs.csv"), 'r', newline='') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',')
-    for row in reader:
-        DEVS.append(row)
-DEVS = DEVS[1:]
+    DEVS = sorted(DEVS)
+    with open(os.path.join("project1devs", "devs.csv"), 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quotechar='"')
+        writer.writerow(["name", "email"])
+        writer.writerows(DEVS)
 
 
-SIMILARITY = []
-for dev_a, dev_b in combinations(DEVS, 2):
-    line = fun.compare_pairs(dev_a, dev_b, sim)
-    SIMILARITY.append(line)
+    DEVS = []
+    with open(os.path.join("project1devs", "devs.csv"), 'r', newline='') as csvfile:
+        reader = csv.reader(csvfile, delimiter=',')
+        for row in reader:
+            DEVS.append(row)
+    DEVS = DEVS[1:]
 
 
+    SIMILARITY = []
+    for dev_a, dev_b in combinations(DEVS, 2):
+        line = fun.compare_pairs(dev_a, dev_b, sim)
+        SIMILARITY.append(line)
 
-cols = ["name_1", "email_1", "name_2", "email_2", "c1", "c2",
-        "c3.1", "c3.2", "c4", "c5", "c6", "c7", "is_generic_1", "is_generic_2"]
-df = pd.DataFrame(SIMILARITY, columns=cols)
-df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
+
+    cols = ["name_1", "email_1", "name_2", "email_2", "c1", "c2",
+            "c3.1", "c3.2", "c4", "c5", "c6", "c7"]
+    df = pd.DataFrame(SIMILARITY, columns=cols)
+    df.to_csv(os.path.join("project1devs", "devs_similarity.csv"), index=False, header=True)
 
 
-df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
+    df = df[["name_1", "email_1", "name_2", "email_2", "c1", "c2",
         "c3.1", "c3.2", "c4", "c5", "c6", "c7"]]
 
-t=0.7
-tol = 0.03
+    t = 0.73
 
-filtered_df = fun.filter_pairs(df, t, tol)
-filtered_df.to_csv(os.path.join("project1devs", f"devs_similarity_filtered_t={t}.csv"), index=False, header=True)
+    filtered_df = fun.filter_pairs(df, t)
+    filtered_df.to_csv(os.path.join("project1devs", f"devs_similarity_filtered_t={t}.csv"), index=False, header=True)
 
+except Exception as ex:
+    print("Error occurred: {ex}, see the traceback")
+    traceback.print_exc()

@@ -1,8 +1,13 @@
-import pandas as pd
 import unicodedata
 import string
 
-def filter_pairs(df, threshold, tolerance):
+def filter_pairs(df, threshold):
+    try:
+        threshold = float(threshold)
+    except ValueError:
+        print("Given t-type is not accepted")
+        return
+        
     df = df.copy()
     df["bal_value"] = (
     df["c1"] * 4 +
@@ -12,12 +17,8 @@ def filter_pairs(df, threshold, tolerance):
     df["c5"].astype(float)
 ) / 10
     
-    df1 = df[df.groupby("name_1")["bal_value"].transform("max") - df["bal_value"] <= tolerance]
-    df2 = df[df.groupby("name_2")["bal_value"].transform("max") - df["bal_value"] <= tolerance]
-
-    result = pd.concat([df1, df2]).drop_duplicates()
-    return result[result["bal_value"] >= threshold]
-
+    result = df[df["bal_value"] >= threshold]
+    return result
 
 def process(dev):
     name: str = dev[0]
@@ -50,15 +51,12 @@ def process(dev):
     
     email: str = dev[1]
     prefix = email.split("@")[0]
-    
-    GENERIC = ["noreply", "contact", "info"]
-    is_generic = any(prefix.startswith(g) for g in GENERIC)
 
-    return name, first, last, i_first, i_last, email, prefix, is_generic
+    return name, first, last, i_first, i_last, email, prefix
 
 def compare_pairs(dev_a, dev_b, sim_func):
-    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a, is_generic_a = process(dev_a)
-    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b, is_generic_b = process(dev_b)
+    name_a, first_a, last_a, i_first_a, i_last_a, email_a, prefix_a = process(dev_a)
+    name_b, first_b, last_b, i_first_b, i_last_b, email_b, prefix_b = process(dev_b)
 
     
     c1 = sim_func(name_a, name_b)
@@ -77,8 +75,4 @@ def compare_pairs(dev_a, dev_b, sim_func):
     if i_last_b != "":
         c7 = i_last_b in prefix_a and first_b in prefix_a
         
-    if is_generic_a or is_generic_b:
-        c2 = 0
-        c4 = c5 = c6 = c7 = False
-        
-    return [dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7, is_generic_a, is_generic_b]
+    return [dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7]
