@@ -50,6 +50,6 @@ try:
     filtered_df.to_csv(os.path.join("project1devs", f"devs_similarity_filtered_t={t}.csv"), index=False, header=True)
 
 except Exception as ex:
-    print("Error occurred: {ex}, see the traceback")
+    print(f"Error occurred: {ex}, see the traceback")
     traceback.print_exc()
     

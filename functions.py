@@ -76,4 +76,3 @@ def compare_pairs(dev_a, dev_b, sim_func):
         c7 = i_last_b in prefix_a and first_b in prefix_a
         
     return [dev_a[0], email_a, dev_b[0], email_b, c1, c2, c31, c32, c4, c5, c6, c7]
-
